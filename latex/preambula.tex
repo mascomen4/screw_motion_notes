@@ -1,0 +1,57 @@
+\documentclass[12pt]{article}
+
+\usepackage[no-math]{fontspec}
+\usepackage{polyglossia}
+\setdefaultlanguage[
+  indentfirst=true,
+  spelling=modern]{russian}
+\setotherlanguage{english}
+
+\usepackage{amsmath}
+\usepackage{unicode-math}
+
+\setmainfont{CMU Serif}
+\setsansfont{CMU Sans Serif}
+\setmonofont{CMU Typewriter Text}
+
+\setmathfont{Latin Modern Math}
+
+\usepackage{cancel}
+% \usepackage{latexsym}
+\usepackage{hyperref} % ссылки в документе
+\hypersetup{
+  colorlinks,
+  citecolor=black,
+  filecolor=black,
+  linkcolor=black,
+  urlcolor=black,
+  bookmarksdepth=subsubsection, 
+  unicode=true,       
+  pdftoolbar=true,       
+  pdfmenubar=true,    
+  pdffitwindow=false,  
+  pdfstartview={FitH},  
+  pdftitle={Название},
+  pdfauthor={Коллектив авторов}
+}
+\usepackage{graphicx} % картинки
+\usepackage{xcolor} % цвет
+
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%								BibLaTeX
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\usepackage[autostyle]{csquotes}
+\usepackage{url}
+
+\usepackage[%
+  backend=biber,
+  bibstyle=gost-numeric,
+  defernumbers=true,
+  movenames=false, % не менять местами заголовок и список авторов, если авторов больше четырех
+  maxbibnames=10, % сколько авторов указывать
+  sorting=none,
+]{biblatex}
+% Файл с литературой
+\addbibresource{bib/algebra.bib}
+\addbibresource{bib/zotero/zotero.bib}
