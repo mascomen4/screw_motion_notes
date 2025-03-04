@@ -3464,7 +3464,7 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">bib/zotero/zotero.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">ReleaseV705Retorquere</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">hodgeMethodsAlgebraicGeometry1994</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

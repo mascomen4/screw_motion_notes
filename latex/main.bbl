@@ -19,28 +19,52 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{ReleaseV705Retorquere}{online}{}
-      \list{organization}{1}{%
-        {GitHub}%
+    \entry{hodgeMethodsAlgebraicGeometry1994}{book}{}
+      \name{author}{2}{}{%
+        {{hash=97c996995d5ff64fde1379553c3a893c}{%
+           family={Hodge},
+           familyi={H\bibinitperiod},
+           given={W.\bibnamedelimi V.\bibnamedelimi D.},
+           giveni={W\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=3587b61e2bfb5eebd092dd8cbae0dc5c}{%
+           family={Pedoe},
+           familyi={P\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
       }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{d8269a792c3ee1dc98756b4a0fd850e6}
+      \strng{fullhash}{d8269a792c3ee1dc98756b4a0fd850e6}
+      \strng{bibnamehash}{d8269a792c3ee1dc98756b4a0fd850e6}
+      \strng{authorbibnamehash}{d8269a792c3ee1dc98756b4a0fd850e6}
+      \strng{authornamehash}{d8269a792c3ee1dc98756b4a0fd850e6}
+      \strng{authorfullhash}{d8269a792c3ee1dc98756b4a0fd850e6}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{This release is compatible with Zotero 7 and Zotero 7 beta. The last version of BBT that is compatible with Zotero 6 can be found at https://github.com/retorquere/zotero-better-bibtex/releases/tag/...}
-      \field{langid}{english}
-      \field{title}{Release v7.0.5 · Retorquere/Zotero-Better-Bibtex}
-      \field{urlday}{1}
+      \field{abstract}{This work provides a lucid and rigorous account of the foundations of modern algebraic geometry. The authors have confined themselves to fundamental concepts and geometrical methods, and do not give detailed developments of geometrical properties, but geometrical meaning has been emphasised throughout. This first volume is divided into two parts. The first is devoted to pure algebra; the basic notions, the theory of matrices over a non-commutative ground field and a study of algebraic equations. The second part is concerned with the definitions and basic properties of projective space in n dimensions. It concludes with a purely algebraic account of collineations and correlations. The other two volumes of Hodge and Pedoe's classic work are also available. Together, these books give an insight into algebraic geometry that is unique and unsurpassed.}
+      \field{day}{10}
+      \field{edition}{1}
+      \field{isbn}{978-0-521-46900-5 978-0-511-62387-5}
+      \field{month}{3}
+      \field{title}{Methods of {{Algebraic Geometry}}}
+      \field{urlday}{4}
       \field{urlmonth}{3}
       \field{urlyear}{2025}
+      \field{year}{1994}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
-      \verb{file}
-      \verb files/25/v7.0.html
+      \verb{doi}
+      \verb 10.1017/CBO9780511623875
       \endverb
       \verb{urlraw}
-      \verb https://github.com/retorquere/zotero-better-bibtex/releases/tag/v7.0.5
+      \verb https://www.cambridge.org/core/product/identifier/9780511623875/type/book
       \endverb
       \verb{url}
-      \verb https://github.com/retorquere/zotero-better-bibtex/releases/tag/v7.0.5
+      \verb https://www.cambridge.org/core/product/identifier/9780511623875/type/book
       \endverb
     \endentry
   \enddatalist

@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 1740857564 "main.bcf" "main.bbl" "main" 1740857929 0
-  "bib/algebra.bib" 1740854006 5712 36fb750cb8e1094f38b2d0c7a20b2d6c ""
-  "bib/zotero/zotero.bib" 1740857458 4214 28f49e48c84a2719b102dfe445076cf6 ""
-  "main.bcf" 1740857929 151195 178522ff4f54d731b84912199619f895 "lualatex"
+["biber main"] 1741077490 "main.bcf" "main.bbl" "main" 1741077498 0
+  "bib/algebra.bib" 1741077394 5712 a55ba61f759e8127d412ddd4f2f03612 ""
+  "bib/zotero/zotero.bib" 1741074811 5001 eb914aed458f1b1943df548f231d8515 ""
+  "main.bcf" 1741077497 151207 87db96122678d42f219f3d789248835f "lualatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["lualatex"] 1740857926 "main.tex" "main.pdf" "main" 1740857929 0
+["lualatex"] 1741077494 "main.tex" "main.pdf" "main" 1741077498 0
   "/home/pi/.texlive2022/texmf-var/luatex-cache/generic/fonts/hb/:usr:local:texlive:2022:texmf-dist:fonts:opentype:public:cm-unicode:cmunbi.otf:1:nil" 1740835846 90555 ad0f53c970515ebc700b74ac3f85812f ""
   "/home/pi/.texlive2022/texmf-var/luatex-cache/generic/fonts/hb/:usr:local:texlive:2022:texmf-dist:fonts:opentype:public:cm-unicode:cmunbx.otf:1:nil" 1740835846 124198 ef29b19a9c14b5a764b55fe9d0b51562 ""
   "/home/pi/.texlive2022/texmf-var/luatex-cache/generic/fonts/hb/:usr:local:texlive:2022:texmf-dist:fonts:opentype:public:cm-unicode:cmunrm.otf:1:nil" 1740835845 129470 0a343283c0d49e150ec6671333213712 ""
@@ -39,7 +39,9 @@
   "/home/pi/.texlive2022/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1671915563 313413 6113473ddc2943cab8fab928fb38f488 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/cm-unicode/cmunbx.otf" 1278718173 319676 56f874892a7240ca1accbeab7675ad3c ""
   "/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/cm-unicode/cmunrm.otf" 1278718173 330492 16735f17d996f4a288f258a11e88dd08 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/cm-unicode/cmunti.otf" 1278718173 248088 2e3f773b63c03da53c4cfe9e4f101af3 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/cm-unicode/cmuntt.otf" 1278718173 301664 2b93d09bb5790ae532d6d46995c388d9 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf" 1429396570 733736 0b8cd5044567d896491fd777c12d5cda ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -206,11 +208,11 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1671376212 4623329 5e28269c2aee4b9e2f0ef6bdcff03654 ""
   "/usr/local/texlive/2022/texmf-var/tex/generic/config/language.dat.lua" 1671376208 17725 bd529b08fa2bfeaaa56019879b6e3da9 ""
   "/usr/local/texlive/2022/texmf-var/web2c/luahbtex/lualatex.fmt" 1671376234 4791280 f4b253f68cfbaeee73793d6e3961e57f ""
-  "main.aux" 1740857929 3623 c3b239b31e183ae8f4d83689c11d801b "lualatex"
-  "main.bbl" 1740857699 1529 58c87be6c302ed2fe408eabf40480c76 "biber main"
-  "main.out" 1740857929 3881 3501d683386a5bb00216dbe4da74e2d6 "lualatex"
-  "main.run.xml" 1740857929 2674 01497f5830b74a8d147d1ec4d38c08bf "lualatex"
-  "main.tex" 1740857924 8537 c16926f812db46c5cd7de311f41809d1 ""
+  "main.aux" 1741077497 4015 b8ca5d49fbf4208e37fab00bb8df47be "lualatex"
+  "main.bbl" 1741077491 3243 518246d1874b1d4f6ace4c416e64c129 "biber main"
+  "main.out" 1741077497 4567 7e1796b8cc9e70929c7ef1a0190f7ac7 "lualatex"
+  "main.run.xml" 1741077497 2674 01497f5830b74a8d147d1ec4d38c08bf "lualatex"
+  "main.tex" 1741077492 8957 befa6822fa548e028c737627db9e8e49 ""
   "preambula.tex" 1740857558 1537 7ea924cfc3668b1a5c52d7492eb6ffc8 ""
   (generated)
   "main.aux"
