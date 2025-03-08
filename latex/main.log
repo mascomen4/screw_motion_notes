@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.12.18)  4 MAR 2025 11:38
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.12.18)  8 MAR 2025 22:54
  system commands enabled.
 **main.tex
 (./main.tex
@@ -208,12 +208,12 @@ braces):
 >  {russian/Localnumeral}  =>  {Russiannumerals}
 >  {russian/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
 Module polyglossia Info: Language data for russian
-(polyglossia)            loader	loadhyph-ru.tex
 (polyglossia)            patterns	hyph-ru.pat.txt
+(polyglossia)            hyphenation	hyph-ru.hyp.txt
 (polyglossia)            lefthyphenmin	2
 (polyglossia)            synonyms	
 (polyglossia)            righthyphenmin	2
-(polyglossia)            hyphenation	hyph-ru.hyp.txt on input line 19
+(polyglossia)            loader	loadhyph-ru.tex on input line 19
 Module polyglossia Info: Language russian was not yet loaded; created with id 2 
 on input line 19
 Package polyglossia Info: Option: Russian, numerals=arabic.
@@ -1481,12 +1481,6 @@ Overfull \hbox (20.96614pt too wide) in paragraph at lines 10--10
  [][] 
  []
 
-
-Overfull \hbox (6.1487pt too wide) in paragraph at lines 41--41
-[]\TU/CMUSerif(2)/b/n/14.4 Про-це-ду-ра Кейли-Диксона н
-а ком-плекс-ных чис-
- []
-
 [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
@@ -1536,6 +1530,12 @@ dflt;"
 (fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 
+
+Overfull \hbox (11.03606pt too wide) in paragraph at lines 305--305
+[]\TU/CMUSerif(2)/m/it/12 Hartley R.\TU/CMUSerif(2)/m/n/12 , \TU/CMUSerif(2)/m/
+it/12 Zisserman A. \TU/CMUSerif(2)/m/n/12 Multiple View Geometry in Computer Vis
+ion. —
+ []
 
 [2]
 The property list \polyglossia@langsetup contains the pairs (without outer
@@ -1633,34 +1633,35 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {newzealand/options}  =>  {variant=newzealand}.
  [3] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7E1796B8CC9E70929C7EF1A0190F7AC7;4567.
+(rerunfilecheck)             Checksum: E1235DAEDBB70A8FE041BED9DE5804FF;2890.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 27953 strings out of 477247
+ 27957 strings out of 477247
  125038,1977958 words of node,token memory allocated
- 573 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 8 attribute, 67 glue_spec,
- 8 attribute_list, 1 write, 1 pdf_action nodes
-   avail lists: 2:534,3:272,4:29,5:110,6:38,7:1928,8:95,9:140,10:7,11:257
- 48375 multiletter control sequences out of 65536+600000
- 136 fonts using 63396767 bytes
- 79i,6n,119p,926b,3177s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 599 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 13 attribute, 67 glue_spec
+, 13 attribute_list, 1 write, 2 pdf_action nodes
+   avail lists: 2:523,3:246,4:37,5:188,6:39,7:4679,8:88,9:547,10:8,11:465
+ 48384 multiletter control sequences out of 65536+600000
+ 138 fonts using 63748703 bytes
+ 79i,7n,119p,926b,3177s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/cm-unicode/cmuntt.otf>
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/cm-unicode/cmunti.otf>
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/cm-unicode/cmuntt.otf>
+</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/cm-unicode/cmunbx.otf>
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm-math/latinmodern-ma
 th.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm-math/latinmo
 dern-math.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/cm-unico
 de/cmunbx.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/cm-unico
 de/cmunrm.otf>
-Output written on main.pdf (3 pages, 35662 bytes).
+Output written on main.pdf (3 pages, 48867 bytes).
 
-PDF statistics: 164 PDF objects out of 1000 (max. 8388607)
- 128 compressed objects within 2 object streams
- 25 named destinations out of 1000 (max. 131072)
- 153 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 150 PDF objects out of 1000 (max. 8388607)
+ 111 compressed objects within 2 object streams
+ 20 named destinations out of 1000 (max. 131072)
+ 89 words of extra memory for PDF output out of 10000 (max. 100000000)
 

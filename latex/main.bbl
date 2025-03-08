@@ -67,6 +67,109 @@
       \verb https://www.cambridge.org/core/product/identifier/9780511623875/type/book
       \endverb
     \endentry
+    \entry{hartley2003multiple}{book}{}
+      \name{author}{2}{}{%
+        {{hash=21dc1e55fc6420f8c9929a4dc2696b4f}{%
+           family={Hartley},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e77fd9dd5d9af3c798867760f8828744}{%
+           family={Zisserman},
+           familyi={Z\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{72a4b293f8679d0980df5cac2d5fd938}
+      \strng{fullhash}{72a4b293f8679d0980df5cac2d5fd938}
+      \strng{bibnamehash}{72a4b293f8679d0980df5cac2d5fd938}
+      \strng{authorbibnamehash}{72a4b293f8679d0980df5cac2d5fd938}
+      \strng{authornamehash}{72a4b293f8679d0980df5cac2d5fd938}
+      \strng{authorfullhash}{72a4b293f8679d0980df5cac2d5fd938}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-521-54051-3}
+      \field{series}{Cambridge Books Online}
+      \field{title}{Multiple View Geometry in Computer Vision}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://books.google.ru/books?id=si3R3Pfa98QC
+      \endverb
+      \verb{url}
+      \verb https://books.google.ru/books?id=si3R3Pfa98QC
+      \endverb
+    \endentry
+    \entry{chelnokov2006кватернионные}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f4c0f384ce57daf1c0603622ddc61e34}{%
+           family={Челноков},
+           familyi={Ч\bibinitperiod},
+           given={Юрий\bibnamedelima Николаевич},
+           giveni={Ю\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Физматлит}%
+      }
+      \strng{namehash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{fullhash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{bibnamehash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{authorbibnamehash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{authornamehash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{authorfullhash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-5-9221-0680-1}
+      \field{title}{Кватернионные и Бикватернионные Модели и Методы Механики Твердого Тела и Их Приложения: Геометрия и Кинематика Движения}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://books.google.ru/books?id=8in3rQEACAAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.ru/books?id=8in3rQEACAAJ
+      \endverb
+    \endentry
+    \entry{altmann1986rotations}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f88eab4ea852d994e20612f0a1eaf149}{%
+           family={Altmann},
+           familyi={A\bibinitperiod},
+           given={S.L.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Clarendon Press}%
+      }
+      \strng{namehash}{f88eab4ea852d994e20612f0a1eaf149}
+      \strng{fullhash}{f88eab4ea852d994e20612f0a1eaf149}
+      \strng{bibnamehash}{f88eab4ea852d994e20612f0a1eaf149}
+      \strng{authorbibnamehash}{f88eab4ea852d994e20612f0a1eaf149}
+      \strng{authornamehash}{f88eab4ea852d994e20612f0a1eaf149}
+      \strng{authorfullhash}{f88eab4ea852d994e20612f0a1eaf149}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-19-855372-4}
+      \field{series}{Oxford Science Publications}
+      \field{title}{Rotations, Quaternions, and Double Groups}
+      \field{year}{1986}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://books.google.ru/books?id=K3CAQgAACAAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.ru/books?id=K3CAQgAACAAJ
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
