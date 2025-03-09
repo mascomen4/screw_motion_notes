@@ -339,6 +339,9 @@ INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.cfg
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/ntheorem/ntheorem.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/ntheorem/ntheorem.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/ntheorem/ntheorem.sty
 INPUT ./main.aux
 INPUT ./main.aux
 OUTPUT main.aux
@@ -354,6 +357,9 @@ INPUT /usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/grfext/grfext.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/grfext/grfext.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/grfext/grfext.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/biblatex-gost/american-gost.lbx
@@ -390,6 +396,7 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi7.tfm
 INPUT /usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+OUTPUT main.thm
 INPUT ./main.aux
 INPUT ./main.out
 INPUT ./main.run.xml

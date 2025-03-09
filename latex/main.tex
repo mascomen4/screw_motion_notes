@@ -11,9 +11,11 @@
   %\tableofcontents
   %\clearpage
 
-  % \subsection{Движение прямой через координаты Плюкера}
-
+  % ------------------------------------------------------- Example -------------------------------------------------------
+  
   % Книга по алгебре~\cite[Гл. 1 \S 2]{Zulanke:01:2004}. Можно вставить ссылку как сноску, например~\footfullcite{Fedorchuk1990}. Как написано в книге~\fullcite{IlinPosdniak1981}. Ссылка на статью~\cite{PhysRevLett.81.4545} 
+
+  % ------------------------------------------------------- Example -------------------------------------------------------
 
   \section{Плюккеровы координаты}
 
@@ -56,9 +58,13 @@
   \begin{equation*}
     R = \{ \mathbf{v} \mid \mathbf{m} \} = \mathbf{v} + \epsilon \mathbf{m}
   \end{equation*}
-  Где $\epsilon$ является дуальным числом $\epsilon^2=0$. Напомним, что для дуальных чисел выполняется свойство $\exp{\epsilon x} = 1 + \epsilon x$.
+  Где $\epsilon$ является дуальным числом $\epsilon^2=0$. Напомним, что для дуальных чисел выполняется свойство
+  \begin{equation*}
+    e^{\epsilon x} = 1 + \epsilon x
+  \end{equation*}
+
   Изначально дуальные числа были предложены Клиффордом \autocite{cliffordPreliminarySketchBiquaternions1871},
-  и в дальнейшем исследованы Штуди \autocite{zindlerGeometrieDynamenStudy1903}
+  и в дальнейшем исследованы Штуди \autocite{zindlerGeometrieDynamenStudy1903}.
 
   \subsection{Винты}
 
@@ -67,18 +73,34 @@
   \begin{equation*}
     R = \{ \mathbf{v} \mid p\mathbf{v} \} = \mathbf{v} + \epsilon p \mathbf{v} = (1+\epsilon p)\mathbf{v}
   \end{equation*}
-  В новой системе координат $p=\frac{(\mathbf{v}, \mathbf{m})}{\| \mathbf{v} \|^2}$ называется параметром винта.
+  \begin{equation*}
+    p=\frac{(\mathbf{v}, \mathbf{m})}{\| \mathbf{v} \|^2}
+  \end{equation*}
+  В новой системе координат $p$ называется параметром винта.
+
   Винт, у которого норма направляющего вектора равна единице $\| v \| = 1$ называется единичным винтом. Винт можно записать через единичный винт:
   \begin{equation*}
-    R = r(1+\epsilon p)\mathbf{E} = r\exp{\epsilon p}\mathbf{E}
+    R = r(1+\epsilon p)\mathbf{E} = r e^{\epsilon p}\mathbf{E}
   \end{equation*}
 
-  \subsection{Движение прямой через моторы}
+  \subsection{Движение прямой через винты}
+  
+  \begin{theo}[Принцип перенесения Котельникова-Штуди]%
+  \label{theo:one}  
 
+    Решение любой геометрической или кинематической задачи твёрдого тела с одной неподвижной точкой может использоваться для задачи пространственного движения 
+    свободного твёрдого тела.
 
+    Для этого необходимо заменить векторы, вещественные числа, обычные углы и кватернионы на винты, дуальные числа, дуальные углы и бикватернионы соотвественно. 
+  \end{theo}
 
+  Согласно принципу перенесения Котельникова-Штуди на прямую в виде винта можно подействовать матрицей поворота в дуальных углах
+  
+  \begin{equation*}
+    R' = \mathcal{R}(A) R, \mathcal{R} \in \mathbb{M}^{3 \times 3}
+  \end{equation*}
 
-
+  Где $A$ - дуальный угол. 
 
   \section{Бикватернионы}
 
@@ -100,15 +122,37 @@
 
   \subsection{Движение прямой через бикватернионы}
 
-  В алгебре бикватернионов прямая представима в виде чистого бикватерниона: $\mathbf{L} = \mathbf{L}_x i + \mathbf{L}_y j + \mathbf{L}_z k$. Движение и поворот этой
-  прямой задается в виде
-  \begin{align*}
-    &\mathbf{L}' = \mathbf{QLQ^*}, \quad \mathbf{Q} = \Lambda_0 + \Lambda_1 i + \Lambda_2 j + \Lambda_3 k \\
-    &\Lambda_0 = cos{\frac{\Theta}{2}}, \Lambda_1 = sin{\frac{\Theta}{2}}A_x, \Lambda_2 = sin{\frac{\Theta}{2}}A_y, \Lambda_3 = sin{\frac{\Theta}{2}}A_z \\
-    &\Theta  = \theta + \epsilon \theta^0
-  \end{align*}
-  Где $\Theta$ называется дуальным углом, а $\mathbf{Q}^*$ сопряженным бикватернионом.
+  В алгебре бикватернионов прямая, которую вращают представима в виде чистого бикватерниона
+  \begin{equation*}
+    \mathbf{L} = \mathbf{L}_x i + \mathbf{L}_y j + \mathbf{L}_z k = \mathbf{v}_\mathbf{L} + \epsilon \mathbf{m}_\mathbf{L}
+  \end{equation*}
+  Где $\mathbf{v} = v_x i + v_y j + v_z k$ - направляющий вектор прямой в записи чистого кватерниона и $\mathbf{m} = m_x i + m_y j + m_z k$ - момент прямой в записи чистого кватерниона.
+  
+  Прямая, которая представляет ось вращения также представима в виде чистого бикватерниона
+  \begin{equation*}
+    \mathbf{A} = \mathbf{A}_x i + \mathbf{A}_y j + \mathbf{A}_z k = \mathbf{v}_\mathbf{A} + \epsilon \mathbf{m}_\mathbf{A}
+  \end{equation*}
 
+  Движение и поворот прямой задается в виде $\mathbf{L}' = \mathbf{QLQ^*}$. Где бикватернион вращатель записывается в форме
+  \begin{equation*}
+    \mathbf{Q} = \Lambda_0 + \Lambda_1 i + \Lambda_2 j + \Lambda_3 k
+  \end{equation*}
+  Его сопряжение 
+  \begin{equation*}
+    \mathbf{Q}^* = \Lambda_0 - \Lambda_1 i - \Lambda_2 j - \Lambda_3 k
+  \end{equation*}
+  Лямбда параметры представляют собой
+  \begin{equation*}
+    \Lambda_0 = cos{\frac{\Theta}{2}}, \Lambda_1 = sin{\frac{\Theta}{2}}A_x, \Lambda_2 = sin{\frac{\Theta}{2}}A_y, \Lambda_3 = sin{\frac{\Theta}{2}}A_z
+  \end{equation*}
+  $\Theta$ называется дуальным углом  
+  \begin{equation*}
+    \Theta  = \theta + \epsilon \theta^0
+  \end{equation*}
+  % TODO: (Заметка: переформулировать чтобы объявления были в конце а сначала формулы...)
+
+
+  % ------------------------------------------------------- Example -------------------------------------------------------
   % Формула может быть в строке $f(x) = \cos{x} + \tg{x} +\ch{x} + \sh{x} + \sin{x} + e^{-\mathrm{i}x}$ еще формула с дробью $\frac{2}{3}$ и еще $\dfrac{2}{3}$
 
   % \begin{equation}\label{eq:eq01}
@@ -265,24 +309,27 @@
   %   \sinh \quad \sh
   % \end{equation*}
 
-  \begin{equation*}
-    \mathbb{R}
-    \quad
-    R \;\; \mathtt{R}
-    \quad
-    \mathcal{R} \quad \mathfrak{R} \mathfrak{G} \mathfrak{S}\mathfrak{L}\mathfrak{K}
-  \end{equation*}
+  % \begin{equation*}
+  %   \mathbb{R}
+  %   \quad
+  %   R \;\; \mathtt{R}
+  %   \quad
+  %   \mathcal{R} \quad \mathfrak{R} \mathfrak{G} \mathfrak{S}\mathfrak{L}\mathfrak{K}
+  % \end{equation*}
 
   % Внутри \texttt{абзаца} \(x + 1 = 9\)
+  % ------------------------------------------------------- Example -------------------------------------------------------
 
   \section{Геометрическая алгебра}
 
-  \subsection{Элементы теории групп}
+  Геометрическая алгебра $\mathbb{G_{301}}$ которая моделирует трёхмерное проективное пространство позволяет определить плоскость 
+  как вектор $\mathbf{v_1}$. Так как прямую можно задать через пересечение двух плоскостей то можно
+  обозначить прямую как $\mathbf{L} = \mathbf{v}_1 \wedge \mathbf{v}_2$.
 
   \subsection{Движение прямой через геометрическую алгебру}
   
-% \autocite{bayro-corrochanoSurveyQuaternionAlgebra2021}
 
+  % ------------------------------------------------------- Example -------------------------------------------------------
   % \subsection{Факт №1}
 
   % A \emph{bulletproof} vest wears Chuck Norris for protection.
@@ -341,7 +388,7 @@
   % \end{verbatim}
 
   % Какой-то текст на русском языке.
-
+  % ------------------------------------------------------- Example -------------------------------------------------------
 
   \printbibliography
   

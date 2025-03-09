@@ -55,3 +55,21 @@
 % Файл с литературой
 \addbibresource{bib/algebra.bib}
 \addbibresource{bib/zotero/zotero.bib}
+
+
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%								Theorems
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\usepackage[hyperref,thmmarks]{ntheorem}
+\theoremseparator{.}
+\theoremsymbol{◊}
+\theoremheaderfont{\normalfont\bfseries}
+\theorembodyfont{\itshape}
+\newtheorem{theo}{Теорема}[section]
+\theorembodyfont{\normalfont}
+\newtheorem{primer}{Пример}
+\theoremstyle{nonumberplain}
+\theoremheaderfont{\bfseries}
+\newtheorem{dokaz}{Доказательство}
+\theoremlisttype{allname}

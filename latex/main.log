@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.12.18)  9 MAR 2025 19:05
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.12.18)  9 MAR 2025 23:16
  system commands enabled.
 **main.tex
 (./main.tex
@@ -208,12 +208,12 @@ braces):
 >  {russian/Localnumeral}  =>  {Russiannumerals}
 >  {russian/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
 Module polyglossia Info: Language data for russian
-(polyglossia)            righthyphenmin	2
-(polyglossia)            lefthyphenmin	2
 (polyglossia)            hyphenation	hyph-ru.hyp.txt
-(polyglossia)            synonyms	
 (polyglossia)            patterns	hyph-ru.pat.txt
-(polyglossia)            loader	loadhyph-ru.tex on input line 19
+(polyglossia)            synonyms	
+(polyglossia)            loader	loadhyph-ru.tex
+(polyglossia)            lefthyphenmin	2
+(polyglossia)            righthyphenmin	2 on input line 19
 Module polyglossia Info: Language russian was not yet loaded; created with id 2 
 on input line 19
 Package polyglossia Info: Option: Russian, numerals=arabic.
@@ -1272,11 +1272,58 @@ Package biblatex Info: ... and expl3
 (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
 
-)))
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/ntheorem/ntheorem.sty
+Style `ntheorem', Version 1.33 <2011/08/15>
+Package: ntheorem 2011/08/15 1.33
+\theorem@style=\toks25
+\theorem@@style=\toks26
+\theorembodyfont=\toks27
+\theoremnumbering=\toks28
+\theorempreskipamount=\skip76
+\theorempostskipamount=\skip77
+\theoremframepreskipamount=\skip78
+\theoremframepostskipamount=\skip79
+\theoreminframepreskipamount=\skip80
+\theoreminframepostskipamount=\skip81
+\theorem@preskip=\toks29
+\theorem@postskip=\toks30
+\theorem@framepreskip=\toks31
+\theorem@framepostskip=\toks32
+\theorem@inframepreskip=\toks33
+\theorem@inframepostskip=\toks34
+\theoremindent=\dimen158
+\theorem@indent=\dimen159
+\theoremrightindent=\dimen160
+\theorem@rightindent=\dimen161
+\theoremheaderfont=\toks35
+\theoremseparator=\toks36
+\theoremprework=\toks37
+\theorempostwork=\toks38
+\theoremsymbol=\toks39
+\qedsymbol=\toks40
+\theoremkeyword=\toks41
+\qedsymbol=\toks42
+\thm@topsep=\skip82
+\thm@topsepadd=\skip83
+Package ntheorem Info: Option `thmmarks' loaded on input line 1175.
+\c@endNonectr=\count453
+\c@currNonectr=\count454
+\mysavskip=\skip84
+)
+\c@currtheoctr=\count455
+\c@endtheoctr=\count456
+\c@theo=\count457
+\c@currprimerctr=\count458
+\c@endprimerctr=\count459
+\c@primer=\count460
+\c@currdokazctr=\count461
+\c@enddokazctr=\count462
+\c@dokaz=\count463
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'polyglossia' package.
-
-(./main.aux
+ (./main.aux
 
 Package fontspec Info: Font family 'CMUSerif(2)' created for font 'CMU Serif'
 (fontspec)             with options
@@ -1377,21 +1424,29 @@ Package hyperref Info: Link coloring ON on input line 7.
 
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count453
-\scratchdimen=\dimen158
+\scratchcounter=\count464
+\scratchdimen=\dimen162
 \scratchbox=\box54
-\nofMPsegments=\count454
-\nofMParguments=\count455
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count456
-\MPscratchDim=\dimen159
-\MPnumerator=\count457
-\makeMPintoPDFobject=\count458
-\everyMPtoPDFconversion=\toks26
+\nofMPsegments=\count465
+\nofMParguments=\count466
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count467
+\MPscratchDim=\dimen163
+\MPnumerator=\count468
+\makeMPintoPDFobject=\count469
+\everyMPtoPDFconversion=\toks44
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -1484,7 +1539,23 @@ Overfull \hbox (20.96614pt too wide) in paragraph at lines 10--10
 [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2]
+Overfull \hbox (0.98244pt too wide) in paragraph at lines 81--82
+[]\TU/CMUSerif(2)/m/n/12 Винт, у ко-то-ро-го нор-ма на-п
+рав-ля-ю-ще-го век-то-ра рав-на еди-ни-це $\TU/Lat
+inModernMath(1)/m/n/12 ‖𝑣‖ =
+ []
+
+Package hyperref Info: bookmark level for unknown theo defaults to 0 on input l
+ine 88.
+
+Overfull \hbox (6.63594pt too wide) in paragraph at lines 91--93
+[]\TU/CMUSerif(2)/m/it/12 Ре-
+ []
+
+[2] [3
+Missing character: There is no ◊ (U+25CA) in font CMUSerif/I:mode=harf;script=
+cyrl;language=dflt;+tlig;!
+]
 
 Package fontspec Info: Font family 'CMUTypewriterText(2)' created for font
 (fontspec)             'CMU Typewriter Text' with options
@@ -1531,15 +1602,15 @@ dflt;"
 (fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 
- [3]
-Overfull \hbox (11.03606pt too wide) in paragraph at lines 347--347
+
+Overfull \hbox (11.03606pt too wide) in paragraph at lines 394--394
 []\TU/CMUSerif(2)/m/it/12 Hartley R.\TU/CMUSerif(2)/m/n/12 , \TU/CMUSerif(2)/m/
 it/12 Zisserman A. \TU/CMUSerif(2)/m/n/12 Multiple View Geometry in Computer Vis
 ion. —
  []
 
-
-Overfull \hbox (179.43626pt too wide) in paragraph at lines 347--347
+[4]
+Overfull \hbox (179.43626pt too wide) in paragraph at lines 394--394
 \TU/CMUTypewriterText(2)/m/n/12 semanticscholar . org / paper / Dual - Quaternio
 ns - Jia / d11ee4eeb7e870faf8fe12136c12dfbf2026e030$[][]
  []
@@ -1637,40 +1708,40 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {newzealand/target}  =>  {english}
 >  {newzealand/variant}  =>  {newzealand}
 >  {newzealand/options}  =>  {variant=newzealand}.
-[4] (./main.aux)
+\tf@thm=\write5
+
+\openout5 = main.thm
+[5] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 41A64E1C1B318B3DA020869BC53735FB;2523.
+(rerunfilecheck)             Checksum: 8AA3104C1F056B005CA5D09CC6C41DF5;2289.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 27988 strings out of 477247
+ 28377 strings out of 477247
  125038,1977958 words of node,token memory allocated
- 648 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 19 attribute, 69 glue_spec
-, 19 attribute_list, 1 write, 3 pdf_action nodes
-   avail lists: 2:629,3:391,4:78,5:202,6:44,7:4811,8:116,9:542,10:10,11:493,12:2
-
- 48411 multiletter control sequences out of 65536+600000
- 141 fonts using 64853607 bytes
- 79i,10n,119p,926b,3177s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 697 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 26 attribute, 75 glue_spec
+, 26 attribute_list, 1 write, 3 pdf_action nodes
+   avail lists: 1:2,2:605,3:359,4:74,5:202,6:44,7:4811,8:115,9:543,10:10,11:493,
+12:2
+ 48777 multiletter control sequences out of 65536+600000
+ 137 fonts using 64045495 bytes
+ 79i,7n,119p,926b,3179s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/cm-unicode/cmuntt.otf>
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/cm-unicode/cmunti.otf>
-</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/cm-unicode/cmuntt.otf>
+</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/cm-unicode/cmunbx.otf>
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm-math/latinmodern-ma
-th.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/cm-unicode/cmun
-rm.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/cm-unicode/cmun
-bx.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm-math/latinmo
-dern-math.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm-math/
-latinmodern-math.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/c
-m-unicode/cmunbx.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/c
-m-unicode/cmunrm.otf>
-Output written on main.pdf (4 pages, 65100 bytes).
+th.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm-math/latinmo
+dern-math.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/cm-unico
+de/cmunbx.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/cm-unico
+de/cmunrm.otf>
+Output written on main.pdf (5 pages, 65466 bytes).
 
-PDF statistics: 182 PDF objects out of 1000 (max. 8388607)
- 136 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 131072)
- 81 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 163 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
+ 25 named destinations out of 1000 (max. 131072)
+ 73 words of extra memory for PDF output out of 10000 (max. 100000000)
 
