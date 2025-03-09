@@ -326,11 +326,81 @@
       \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://www.semanticscholar.org/paper/Dual-Quaternions-Jia/d11ee4eeb7e870faf8fe12136c12dfbf2026e030
+      \verb \url{https://www.semanticscholar.org/paper/Dual-Quaternions-Jia/d11ee4eeb7e870faf8fe12136c12dfbf2026e030}
       \endverb
       \verb{url}
-      \verb https://www.semanticscholar.org/paper/Dual-Quaternions-Jia/d11ee4eeb7e870faf8fe12136c12dfbf2026e030
+      \verb %5Curl%7Bhttps://www.semanticscholar.org/paper/Dual-Quaternions-Jia/d11ee4eeb7e870faf8fe12136c12dfbf2026e030%7D
       \endverb
+    \endentry
+    \entry{ruheGeometricCliffordAlgebra2023}{online}{}
+      \name{author}{5}{}{%
+        {{hash=5eafae85d352173953cd0c1a272b536e}{%
+           family={Ruhe},
+           familyi={R\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=fe52f7f3365727a86a07b7c519c958b1}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Jayesh\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{useprefix=false,hash=9416f00f63c214b2b953b80f55461bca}{%
+           family={Keninck},
+           familyi={K\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=53d2880ad8047b61cdae2c6b2803e763}{%
+           family={Welling},
+           familyi={W\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4954f897f0e2228c69f8903b2e1e25d1}{%
+           family={Brandstetter},
+           familyi={B\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{df0c98a317649d1e6fd58e97a00eb89c}
+      \strng{fullhash}{90270edf8d301a1d4f12540bcffdf5f9}
+      \strng{bibnamehash}{90270edf8d301a1d4f12540bcffdf5f9}
+      \strng{authorbibnamehash}{90270edf8d301a1d4f12540bcffdf5f9}
+      \strng{authornamehash}{df0c98a317649d1e6fd58e97a00eb89c}
+      \strng{authorfullhash}{90270edf8d301a1d4f12540bcffdf5f9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We propose Geometric Clifford Algebra Networks (GCANs) for modeling dynamical systems. GCANs are based on symmetry group transformations using geometric (Clifford) algebras. We first review the quintessence of modern (plane-based) geometric algebra, which builds on isometries encoded as elements of the \$\textbackslash mathrm\{Pin\}(p,q,r)\$ group. We then propose the concept of group action layers, which linearly combine object transformations using pre-specified group actions. Together with a new activation and normalization scheme, these layers serve as adjustable \$\textbackslash textit\{geometric templates\}\$ that can be refined via gradient descent. Theoretical advantages are strongly reflected in the modeling of three-dimensional rigid body transformations as well as large-scale fluid dynamics simulations, showing significantly improved performance over traditional methods.}
+      \field{day}{29}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arXiv}
+      \field{month}{5}
+      \field{pubstate}{prepublished}
+      \field{title}{Geometric {{Clifford Algebra Networks}}}
+      \field{urlday}{9}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2302.06594
+      \endverb
+      \verb{eprint}
+      \verb 2302.06594
+      \endverb
+      \verb{file}
+      \verb files/50/Ruhe et al. - 2023 - Geometric Clifford Algebra Networks.pdf;files/51/2302.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2302.06594
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2302.06594
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning}
     \endentry
   \enddatalist
 \endrefsection

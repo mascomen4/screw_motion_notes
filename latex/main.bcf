@@ -3474,6 +3474,7 @@
     <bcf:citekey order="8" intorder="1">cliffordPreliminarySketchBiquaternions1871</bcf:citekey>
     <bcf:citekey order="9" intorder="1">jiaDualQuaternions2018</bcf:citekey>
     <bcf:citekey order="10" intorder="1">chelnokov2006кватернионные</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">ruheGeometricCliffordAlgebra2023</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 1741536179 "main.bcf" "main.bbl" "main" 1741551367 0
+["biber main"] 1741552273 "main.bcf" "main.bbl" "main" 1741552283 0
   "bib/algebra.bib" 1741077394 5712 a55ba61f759e8127d412ddd4f2f03612 ""
-  "bib/zotero/zotero.bib" 1741536343 9204 ea3482f57e7fd3a693b81ffe47709af0 ""
-  "main.bcf" 1741551366 151988 2701138033d0c46de2f3fd3a6f323b30 "lualatex"
+  "bib/zotero/zotero.bib" 1741552267 10854 c243b3947b3901799f386eb21de7f5a6 ""
+  "main.bcf" 1741552282 152076 287e475cce9b9716b93fb42243cffd01 "lualatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["lualatex"] 1741551363 "main.tex" "main.pdf" "main" 1741551367 0
+["lualatex"] 1741552278 "main.tex" "main.pdf" "main" 1741552283 0
   "/home/pi/.texlive2022/texmf-var/luatex-cache/generic/fonts/hb/:usr:local:texlive:2022:texmf-dist:fonts:opentype:public:cm-unicode:cmunbi.otf:1:nil" 1740835846 90555 ad0f53c970515ebc700b74ac3f85812f ""
   "/home/pi/.texlive2022/texmf-var/luatex-cache/generic/fonts/hb/:usr:local:texlive:2022:texmf-dist:fonts:opentype:public:cm-unicode:cmunbx.otf:1:nil" 1740835846 124198 ef29b19a9c14b5a764b55fe9d0b51562 ""
   "/home/pi/.texlive2022/texmf-var/luatex-cache/generic/fonts/hb/:usr:local:texlive:2022:texmf-dist:fonts:opentype:public:cm-unicode:cmunrm.otf:1:nil" 1740835845 129470 0a343283c0d49e150ec6671333213712 ""
@@ -210,11 +210,11 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1671376212 4623329 5e28269c2aee4b9e2f0ef6bdcff03654 ""
   "/usr/local/texlive/2022/texmf-var/tex/generic/config/language.dat.lua" 1671376208 17725 bd529b08fa2bfeaaa56019879b6e3da9 ""
   "/usr/local/texlive/2022/texmf-var/web2c/luahbtex/lualatex.fmt" 1671376234 4791280 f4b253f68cfbaeee73793d6e3961e57f ""
-  "main.aux" 1741551366 4874 040c6b01ff480145e51bc0b9a96b11fd "lualatex"
-  "main.bbl" 1741536354 14421 de57d0c0a933486ce1fe04d6cc70ac90 "biber main"
-  "main.out" 1741551366 2289 8aa3104c1f056b005ca5d09cc6c41df5 "lualatex"
-  "main.run.xml" 1741551366 2674 01497f5830b74a8d147d1ec4d38c08bf "lualatex"
-  "main.tex" 1741551358 17710 c3f05cc3ccc13dfcd27ae19c726c96f5 ""
+  "main.aux" 1741552282 5237 d05cde2c42c22e6ab97bbbe34b9a16f4 "lualatex"
+  "main.bbl" 1741552274 17964 f1907ec4ca3343ad1d93d7632f6cc835 "biber main"
+  "main.out" 1741552282 2289 8aa3104c1f056b005ca5d09cc6c41df5 "lualatex"
+  "main.run.xml" 1741552282 2674 01497f5830b74a8d147d1ec4d38c08bf "lualatex"
+  "main.tex" 1741551961 17914 b20a565f45fb43164c303434493daccf ""
   "preambula.tex" 1741549565 2111 8c543d1245e370e050b0b500a5cc4a22 ""
   (generated)
   "main.aux"
