@@ -105,6 +105,135 @@
       \verb https://books.google.ru/books?id=si3R3Pfa98QC
       \endverb
     \endentry
+    \entry{dimentberg1965винтовое}{book}{}
+      \name{author}{1}{}{%
+        {{hash=409d36b3445ec1453283fbdf49064b3c}{%
+           family={Диментберг},
+           familyi={Д\bibinitperiod},
+           given={Ф.М.},
+           giveni={Ф\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Наука}%
+      }
+      \strng{namehash}{409d36b3445ec1453283fbdf49064b3c}
+      \strng{fullhash}{409d36b3445ec1453283fbdf49064b3c}
+      \strng{bibnamehash}{409d36b3445ec1453283fbdf49064b3c}
+      \strng{authorbibnamehash}{409d36b3445ec1453283fbdf49064b3c}
+      \strng{authornamehash}{409d36b3445ec1453283fbdf49064b3c}
+      \strng{authorfullhash}{409d36b3445ec1453283fbdf49064b3c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Физико-Математическая Библиотека Инженера}
+      \field{title}{Винтовое Исчисление и Его Приложения в Механике}
+      \field{year}{1965}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://books.google.ru/books?id=to5GAAAAYAAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.ru/books?id=to5GAAAAYAAJ
+      \endverb
+    \endentry
+    \entry{cliffordPreliminarySketchBiquaternions1871}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4c4844cc040e8cc73408c3bad7cc7ebf}{%
+           family={{Clifford}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{4c4844cc040e8cc73408c3bad7cc7ebf}
+      \strng{fullhash}{4c4844cc040e8cc73408c3bad7cc7ebf}
+      \strng{bibnamehash}{4c4844cc040e8cc73408c3bad7cc7ebf}
+      \strng{authorbibnamehash}{4c4844cc040e8cc73408c3bad7cc7ebf}
+      \strng{authornamehash}{4c4844cc040e8cc73408c3bad7cc7ebf}
+      \strng{authorfullhash}{4c4844cc040e8cc73408c3bad7cc7ebf}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00246115}
+      \field{journaltitle}{Proceedings of the London Mathematical Society}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{shortjournal}{Proceedings of the London Mathematical Society}
+      \field{title}{Preliminary {{Sketch}} of {{Biquaternions}}}
+      \field{urlday}{9}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{year}{1871}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{381\bibrangedash 395}
+      \range{pages}{15}
+      \field{volume}{s1\bibrangedash 4}
+      \range{volume}{-1}
+      \verb{doi}
+      \verb 10.1112/plms/s1-4.1.381
+      \endverb
+      \verb{file}
+      \verb files/41/Clifford - 1871 - Preliminary Sketch of Biquaternions.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://doi.wiley.com/10.1112/plms/s1-4.1.381
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1112/plms/s1-4.1.381
+      \endverb
+    \endentry
+    \entry{zindlerGeometrieDynamenStudy1903}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e5494053be76fcb797c0e8582c4c6cee}{%
+           family={Zindler},
+           familyi={Z\bibinitperiod},
+           given={Konrad},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{e5494053be76fcb797c0e8582c4c6cee}
+      \strng{fullhash}{e5494053be76fcb797c0e8582c4c6cee}
+      \strng{bibnamehash}{e5494053be76fcb797c0e8582c4c6cee}
+      \strng{authorbibnamehash}{e5494053be76fcb797c0e8582c4c6cee}
+      \strng{authornamehash}{e5494053be76fcb797c0e8582c4c6cee}
+      \strng{authorfullhash}{e5494053be76fcb797c0e8582c4c6cee}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0026-9255, 1436-5081}
+      \field{journaltitle}{Monatshefte für Mathematik und Physik}
+      \field{langid}{ngerman}
+      \field{month}{12}
+      \field{shortjournal}{Monatsh. f. Mathematik und Physik}
+      \field{shorttitle}{Geometrie der Dynamen}
+      \field{title}{Geometrie der Dynamen: Von E. Study. Leipzig, bei B. G. Teubner, 1903. XIII und 603 S. Preis 21 M. (geb. 23 M.)}
+      \field{urlday}{9}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{year}{1903}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{A70\bibrangedash A75}
+      \range{pages}{-1}
+      \field{volume}{14}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1007/BF01707030
+      \endverb
+      \verb{file}
+      \verb files/43/Zindler - 1903 - Geometrie der Dynamen Von E. Study. Leipzig, bei B. G. Teubner, 1903. XIII und 603 S. Preis 21 M. (.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/BF01707030
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/BF01707030
+      \endverb
+    \endentry
     \entry{chelnokov2006кватернионные}{book}{}
       \name{author}{1}{}{%
         {{hash=f4c0f384ce57daf1c0603622ddc61e34}{%
@@ -122,8 +251,8 @@
       \strng{authorbibnamehash}{f4c0f384ce57daf1c0603622ddc61e34}
       \strng{authornamehash}{f4c0f384ce57daf1c0603622ddc61e34}
       \strng{authorfullhash}{f4c0f384ce57daf1c0603622ddc61e34}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-5-9221-0680-1}
@@ -154,8 +283,8 @@
       \strng{authorbibnamehash}{f88eab4ea852d994e20612f0a1eaf149}
       \strng{authornamehash}{f88eab4ea852d994e20612f0a1eaf149}
       \strng{authorfullhash}{f88eab4ea852d994e20612f0a1eaf149}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-0-19-855372-4}
@@ -168,6 +297,39 @@
       \endverb
       \verb{url}
       \verb https://books.google.ru/books?id=K3CAQgAACAAJ
+      \endverb
+    \endentry
+    \entry{jiaDualQuaternions2018}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=67510a14b40f44112ef5a37d6b07fe09}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Yan-Bin},
+           giveni={Y\bibinithyphendelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{67510a14b40f44112ef5a37d6b07fe09}
+      \strng{fullhash}{67510a14b40f44112ef5a37d6b07fe09}
+      \strng{bibnamehash}{67510a14b40f44112ef5a37d6b07fe09}
+      \strng{authorbibnamehash}{67510a14b40f44112ef5a37d6b07fe09}
+      \strng{authornamehash}{67510a14b40f44112ef5a37d6b07fe09}
+      \strng{authorfullhash}{67510a14b40f44112ef5a37d6b07fe09}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As we know, quaternions are very efficient for representing rotations with clear geometric meaning (rotation axis and angle) and only one redundancy. Unfortunately, they do not handle translations, which meanwhile can be made multiplicative along with rotations via the use of homogeneous coordinates. Despite also being 4-tuples, homogeneous coordinates are algebraically incompatible with quaternions. In 1873, dual quaternions were introduced by William Kingdom Clifford [1] in an effort to combine rotations and translations while retaining the benefits of the quaternion representation of rotations.}
+      \field{title}{Dual {{Quaternions}}}
+      \field{urlday}{9}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.semanticscholar.org/paper/Dual-Quaternions-Jia/d11ee4eeb7e870faf8fe12136c12dfbf2026e030
+      \endverb
+      \verb{url}
+      \verb https://www.semanticscholar.org/paper/Dual-Quaternions-Jia/d11ee4eeb7e870faf8fe12136c12dfbf2026e030
       \endverb
     \endentry
   \enddatalist
