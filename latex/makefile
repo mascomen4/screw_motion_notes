@@ -3,7 +3,7 @@ main: main.tex # preambule.tex
 	# xelatex -shell-escape main.tex
 
 clean:
-	-@rm -vf *.aux *.log *.bbl *.blg *.toc *.pyg *.mintedcmd *.mintedmd5 *.out *.nav *.snm *.fdb_latexmk *.fls *.vrb *.xdv
+	-@rm -vf *.aux *.log *.bbl *.blg *.toc *.pyg *.mintedcmd *.mintedmd5 *.out *.bcf *.xml *.thm *.nav *.snm *.fdb_latexmk *.fls *.vrb *.xdv
 	-@rm -vf ./_minted*/*
 	-@rmdir _minted*
 	-@rm -vf ./text/*.aux

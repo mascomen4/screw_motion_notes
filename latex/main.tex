@@ -1,7 +1,7 @@
 \include{preambula}
 
-\author{Подмогильный Иван, Дидусь Кирилл, Нельсонович Мигран}
-\date{1 марта 2025}
+\author{Подмогильный Иван, Дидусь Кирилл, Геворкян М. Н.}
+\date{\today}
 \title{Черновик о винтовом движении прямой}
 
 \begin{document}
@@ -24,13 +24,13 @@
   Где $\mathbf{v}$ называют направляющим вектором прямой, а $\mathbf{m}$ называют моментом прямой. Координаты направляющего вектора и момента можно представить в виде
   Плюккеровой матрицы: 
   \begin{equation*}
-    \mathbf{[L]}_\times = 
+    [\mathbf{L}]_\times = 
     \begin{pmatrix}
       0 & -v_1 & -v_2 & -v_3 \\
       v_1 & 0 & -m_1 & -m_2 \\
       v_2 & m_1 & 0 & m_3 \\
       v_3 & m_2 & m_3 & 0
-\end{pmatrix}
+    \end{pmatrix}
   \end{equation*}
   
   \subsection{Движение прямой представленной в Плюккеровых координатах}
@@ -48,7 +48,7 @@
   \end{pmatrix}
   \end{equation*}
 
-  Реализацией такого действия будет операция: $[\mathbf{L'}]_\times = \mathbf{HLH^T}$.
+  Реализацией такого действия будет операция: $[\mathbf{L}']_\times = \mathbf{HLH}^T$.
 
   \section{Моторы}
 
@@ -56,11 +56,11 @@
   - $\{\mathbf{v} \mid \mathbf{m}\}$, в котором как и в Плюккеровых координатах $\mathbf{v}$ - направляющий вектор прямой, $\mathbf{m}$ - момент прямой.
   Мотором называется следующая запись: 
   \begin{equation*}
-    R = \{ \mathbf{v} \mid \mathbf{m} \} = \mathbf{v} + \epsilon \mathbf{m}
+    R = \{ \mathbf{v} \mid \mathbf{m} \} = \mathbf{v} + \varepsilon \mathbf{m}
   \end{equation*}
-  Где $\epsilon$ является дуальным числом $\epsilon^2=0$. Напомним, что для дуальных чисел выполняется свойство
+  Где $\varepsilon$ является дуальным числом $\varepsilon^2=0$. Напомним, что для дуальных чисел выполняется свойство
   \begin{equation*}
-    e^{\epsilon x} = 1 + \epsilon x
+    e^{\varepsilon x} = 1 + \varepsilon x
   \end{equation*}
 
   Изначально дуальные числа были предложены Клиффордом \autocite{cliffordPreliminarySketchBiquaternions1871},
@@ -71,7 +71,7 @@
   Для любого мотора можно подобрать такую систему координат, что в ней векторы $\mathbf{v}$ и $\mathbf{m}$ будут коллинеарны. 
   Винтом называется мотор, у которого направляющий вектор и момент коллинеарны $\mathbf{m} \| \mathbf{v}$. Винт имеет запись
   \begin{equation*}
-    R = \{ \mathbf{v} \mid p\mathbf{v} \} = \mathbf{v} + \epsilon p \mathbf{v} = (1+\epsilon p)\mathbf{v}
+    R = \{ \mathbf{v} \mid p\mathbf{v} \} = \mathbf{v} + \varepsilon p \mathbf{v} = (1+\varepsilon p)\mathbf{v}
   \end{equation*}
   \begin{equation*}
     p=\frac{(\mathbf{v}, \mathbf{m})}{\| \mathbf{v} \|^2}
@@ -80,12 +80,12 @@
 
   Винт, у которого норма направляющего вектора равна единице $\| v \| = 1$ называется единичным винтом. Винт можно записать через единичный винт:
   \begin{equation*}
-    R = r(1+\epsilon p)\mathbf{E} = r e^{\epsilon p}\mathbf{E}
+    R = r(1+\varepsilon p)\mathbf{E} = r e^{\varepsilon p}\mathbf{E}
   \end{equation*}
 
   \subsection{Движение прямой через винты}
   
-  \begin{theo}[Принцип перенесения Котельникова-Штуди]%
+  \begin{theo}[Принцип перенесения Котельникова--Штуди]%
   \label{theo:one}  
 
     Решение любой геометрической или кинематической задачи твёрдого тела с одной неподвижной точкой может использоваться для задачи пространственного движения 
@@ -113,9 +113,9 @@
     \phi : S^3 \rightarrow SO(3), \phi(q) = \phi(-q)
   \end{equation*}
 
-  Бикватернионы получаются из кватернионов процедурой Кейли-Диксона (удвоением) и имеют запись:
+  Бикватернионы получаются из кватернионов процедурой Кейли--Диксона (удвоением) и имеют запись:
   \begin{equation*}
-    Q = q + \epsilon q^o, \quad q,q^o \in \mathbb{H}, \quad \epsilon^2=0
+    Q = q + \varepsilon q^o, \quad q,q^o \in \mathbb{H}, \quad \varepsilon^2=0
   \end{equation*}
   Бикватернионы были предложены Клиффордом \autocite{cliffordPreliminarySketchBiquaternions1871}. Более подробно бикватернионы описываются в заметке \autocite{jiaDualQuaternions2018},
   а приложение для свободного движения твёрдого тела (вращение и трансляция) приведено в \autocite[Гл. N]{chelnokov2006кватернионные}
@@ -124,13 +124,13 @@
 
   В алгебре бикватернионов прямая, которую вращают представима в виде чистого бикватерниона
   \begin{equation*}
-    \mathbf{L} = \mathbf{L}_x i + \mathbf{L}_y j + \mathbf{L}_z k = \mathbf{v}_\mathbf{L} + \epsilon \mathbf{m}_\mathbf{L}
+    \mathbf{L} = L_x i + L_y j + L_z k = \mathbf{v}_\mathbf{L} + \varepsilon \mathbf{m}_\mathbf{L}
   \end{equation*}
   Где $\mathbf{v} = v_x i + v_y j + v_z k$ - направляющий вектор прямой в записи чистого кватерниона и $\mathbf{m} = m_x i + m_y j + m_z k$ - момент прямой в записи чистого кватерниона.
   
   Прямая, которая представляет ось вращения также представима в виде чистого бикватерниона
   \begin{equation*}
-    \mathbf{A} = \mathbf{A}_x i + \mathbf{A}_y j + \mathbf{A}_z k = \mathbf{v}_\mathbf{A} + \epsilon \mathbf{m}_\mathbf{A}
+    \mathbf{A} = A_x i + A_y j + A_z k = \mathbf{v}_\mathbf{A} + \varepsilon \mathbf{m}_\mathbf{A}
   \end{equation*}
 
   Движение и поворот прямой задается в виде $\mathbf{L}' = \mathbf{QLQ^*}$. Где бикватернион вращатель записывается в форме
@@ -143,17 +143,17 @@
   \end{equation*}
   Лямбда параметры представляют собой
   \begin{equation*}
-    \Lambda_0 = cos{\frac{\Theta}{2}}, \Lambda_1 = sin{\frac{\Theta}{2}}A_x, \Lambda_2 = sin{\frac{\Theta}{2}}A_y, \Lambda_3 = sin{\frac{\Theta}{2}}A_z
+    \Lambda_0 = \cos{\frac{\Theta}{2}}, \Lambda_1 = \sin{\frac{\Theta}{2}}A_x, \Lambda_2 = \sin{\frac{\Theta}{2}}A_y, \Lambda_3 = \sin{\frac{\Theta}{2}}A_z
   \end{equation*}
   $\Theta$ называется дуальным углом  
   \begin{equation*}
-    \Theta  = \theta + \epsilon \theta^0
+    \Theta  = \theta + \varepsilon \theta^0
   \end{equation*}
   % TODO: (Заметка: переформулировать чтобы объявления были в конце а сначала формулы...)
 
 
   % ------------------------------------------------------- Example -------------------------------------------------------
-  % Формула может быть в строке $f(x) = \cos{x} + \tg{x} +\ch{x} + \sh{x} + \sin{x} + e^{-\mathrm{i}x}$ еще формула с дробью $\frac{2}{3}$ и еще $\dfrac{2}{3}$
+  % Формула может быть в строке $f(x) = \cos{x} + \tg{x} +\ch{x} + \sh{x} + \\sin{x} + e^{-\mathrm{i}x}$ еще формула с дробью $\frac{2}{3}$ и еще $\dfrac{2}{3}$
 
   % \begin{equation}\label{eq:eq01}
   %   f(x) = \sum\limits^{\infty}_{i=0}\frac{x^2 + 1}{x^3 - 1}
@@ -243,7 +243,7 @@
 
   % \begin{equation}
   %   \alpha \beta \rho \varrho \phi \varphi
-  %   \Phi, \Delta, \chi, \epsilon, \varepsilon
+  %   \Phi, \Delta, \chi, \varepsilon, \varvarepsilon
   %   \Omega_{\alpha}^{\beta}
   %   \varkappa, \kappa
   %   \quad
@@ -306,7 +306,7 @@
 
   % \begin{equation*}
   %   \tg{x} \quad tg{x}
-  %   \sinh \quad \sh
+  %   \\sinh \quad \sh
   % \end{equation*}
 
   % \begin{equation*}
@@ -322,8 +322,8 @@
 
   \section{Геометрическая алгебра}
 
-  Геометрическая алгебра $\mathbb{G_{301}}$ которая моделирует трёхмерное проективное пространство позволяет определить плоскость 
-  как вектор $\mathbf{v_1}$. Так как прямую можно задать через пересечение двух плоскостей то можно
+  Геометрическая алгебра $\mathbb{G}_{301}$ которая моделирует трёхмерное проективное пространство позволяет определить плоскость 
+  как вектор $\mathbf{v}_1$. Так как прямую можно задать через пересечение двух плоскостей то можно
   обозначить прямую как $\mathbf{L} = \mathbf{v}_1 \wedge \mathbf{v}_2$.
 
   \subsection{Движение прямой через геометрическую алгебру}
