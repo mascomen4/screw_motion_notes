@@ -1,0 +1,20 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'main.blg'
+[73] biber:340> INFO - === Sat Mar 15, 2025, 17:20:52
+[87] Biber.pm:418> INFO - Reading 'main.bcf'
+[171] Biber.pm:978> INFO - Found 9 citekeys in bib section 0
+[186] Biber.pm:4401> INFO - Processing section 0
+[195] Biber.pm:4592> INFO - Looking for bibtex file 'bib/algebra.bib' for section 0
+[196] bibtex.pm:1713> INFO - LaTeX decoding ...
+[211] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/algebra.bib'
+[213] Biber.pm:4592> INFO - Looking for bibtex file 'bib/zotero/zotero.bib' for section 0
+[215] bibtex.pm:1713> INFO - LaTeX decoding ...
+[229] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/zotero/zotero.bib'
+[316] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[316] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[316] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
+[316] Biber.pm:4227> INFO - No sort tailoring available for locale 'ru-RU'
+[324] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[329] bbl.pm:757> INFO - Output to main.bbl
+[329] Biber.pm:130> WARN - ISBN '978-0-521-46900-5 978-0-511-62387-5' in entry 'hodgeMethodsAlgebraicGeometry1994' is invalid - run biber with '--validate_datamodel' for details.
+[329] Biber.pm:132> INFO - WARNINGS: 1

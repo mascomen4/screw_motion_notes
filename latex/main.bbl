@@ -1,0 +1,408 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{hodgeMethodsAlgebraicGeometry1994}{book}{}
+      \name{author}{2}{}{%
+        {{hash=97c996995d5ff64fde1379553c3a893c}{%
+           family={Hodge},
+           familyi={H\bibinitperiod},
+           given={W.\bibnamedelimi V.\bibnamedelimi D.},
+           giveni={W\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=3587b61e2bfb5eebd092dd8cbae0dc5c}{%
+           family={Pedoe},
+           familyi={P\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{d8269a792c3ee1dc98756b4a0fd850e6}
+      \strng{fullhash}{d8269a792c3ee1dc98756b4a0fd850e6}
+      \strng{bibnamehash}{d8269a792c3ee1dc98756b4a0fd850e6}
+      \strng{authorbibnamehash}{d8269a792c3ee1dc98756b4a0fd850e6}
+      \strng{authornamehash}{d8269a792c3ee1dc98756b4a0fd850e6}
+      \strng{authorfullhash}{d8269a792c3ee1dc98756b4a0fd850e6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This work provides a lucid and rigorous account of the foundations of modern algebraic geometry. The authors have confined themselves to fundamental concepts and geometrical methods, and do not give detailed developments of geometrical properties, but geometrical meaning has been emphasised throughout. This first volume is divided into two parts. The first is devoted to pure algebra; the basic notions, the theory of matrices over a non-commutative ground field and a study of algebraic equations. The second part is concerned with the definitions and basic properties of projective space in n dimensions. It concludes with a purely algebraic account of collineations and correlations. The other two volumes of Hodge and Pedoe's classic work are also available. Together, these books give an insight into algebraic geometry that is unique and unsurpassed.}
+      \field{day}{10}
+      \field{edition}{1}
+      \field{isbn}{978-0-521-46900-5 978-0-511-62387-5}
+      \field{month}{3}
+      \field{title}{Methods of {{Algebraic Geometry}}}
+      \field{urlday}{4}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{year}{1994}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1017/CBO9780511623875
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/9780511623875/type/book
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/9780511623875/type/book
+      \endverb
+    \endentry
+    \entry{hartley2003multiple}{book}{}
+      \name{author}{2}{}{%
+        {{hash=21dc1e55fc6420f8c9929a4dc2696b4f}{%
+           family={Hartley},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e77fd9dd5d9af3c798867760f8828744}{%
+           family={Zisserman},
+           familyi={Z\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{72a4b293f8679d0980df5cac2d5fd938}
+      \strng{fullhash}{72a4b293f8679d0980df5cac2d5fd938}
+      \strng{bibnamehash}{72a4b293f8679d0980df5cac2d5fd938}
+      \strng{authorbibnamehash}{72a4b293f8679d0980df5cac2d5fd938}
+      \strng{authornamehash}{72a4b293f8679d0980df5cac2d5fd938}
+      \strng{authorfullhash}{72a4b293f8679d0980df5cac2d5fd938}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-521-54051-3}
+      \field{series}{Cambridge Books Online}
+      \field{title}{Multiple View Geometry in Computer Vision}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://books.google.ru/books?id=si3R3Pfa98QC
+      \endverb
+      \verb{url}
+      \verb https://books.google.ru/books?id=si3R3Pfa98QC
+      \endverb
+    \endentry
+    \entry{dimentberg1965винтовое}{book}{}
+      \name{author}{1}{}{%
+        {{hash=409d36b3445ec1453283fbdf49064b3c}{%
+           family={Диментберг},
+           familyi={Д\bibinitperiod},
+           given={Ф.М.},
+           giveni={Ф\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Наука}%
+      }
+      \strng{namehash}{409d36b3445ec1453283fbdf49064b3c}
+      \strng{fullhash}{409d36b3445ec1453283fbdf49064b3c}
+      \strng{bibnamehash}{409d36b3445ec1453283fbdf49064b3c}
+      \strng{authorbibnamehash}{409d36b3445ec1453283fbdf49064b3c}
+      \strng{authornamehash}{409d36b3445ec1453283fbdf49064b3c}
+      \strng{authorfullhash}{409d36b3445ec1453283fbdf49064b3c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Физико-Математическая Библиотека Инженера}
+      \field{title}{Винтовое Исчисление и Его Приложения в Механике}
+      \field{year}{1965}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://books.google.ru/books?id=to5GAAAAYAAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.ru/books?id=to5GAAAAYAAJ
+      \endverb
+    \endentry
+    \entry{cliffordPreliminarySketchBiquaternions1871}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4c4844cc040e8cc73408c3bad7cc7ebf}{%
+           family={{Clifford}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{4c4844cc040e8cc73408c3bad7cc7ebf}
+      \strng{fullhash}{4c4844cc040e8cc73408c3bad7cc7ebf}
+      \strng{bibnamehash}{4c4844cc040e8cc73408c3bad7cc7ebf}
+      \strng{authorbibnamehash}{4c4844cc040e8cc73408c3bad7cc7ebf}
+      \strng{authornamehash}{4c4844cc040e8cc73408c3bad7cc7ebf}
+      \strng{authorfullhash}{4c4844cc040e8cc73408c3bad7cc7ebf}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00246115}
+      \field{journaltitle}{Proceedings of the London Mathematical Society}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{shortjournal}{Proceedings of the London Mathematical Society}
+      \field{title}{Preliminary {{Sketch}} of {{Biquaternions}}}
+      \field{urlday}{9}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{year}{1871}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{381\bibrangedash 395}
+      \range{pages}{15}
+      \field{volume}{s1\bibrangedash 4}
+      \range{volume}{-1}
+      \verb{doi}
+      \verb 10.1112/plms/s1-4.1.381
+      \endverb
+      \verb{file}
+      \verb files/41/Clifford - 1871 - Preliminary Sketch of Biquaternions.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://doi.wiley.com/10.1112/plms/s1-4.1.381
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1112/plms/s1-4.1.381
+      \endverb
+    \endentry
+    \entry{zindlerGeometrieDynamenStudy1903}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e5494053be76fcb797c0e8582c4c6cee}{%
+           family={Zindler},
+           familyi={Z\bibinitperiod},
+           given={Konrad},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{e5494053be76fcb797c0e8582c4c6cee}
+      \strng{fullhash}{e5494053be76fcb797c0e8582c4c6cee}
+      \strng{bibnamehash}{e5494053be76fcb797c0e8582c4c6cee}
+      \strng{authorbibnamehash}{e5494053be76fcb797c0e8582c4c6cee}
+      \strng{authornamehash}{e5494053be76fcb797c0e8582c4c6cee}
+      \strng{authorfullhash}{e5494053be76fcb797c0e8582c4c6cee}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0026-9255, 1436-5081}
+      \field{journaltitle}{Monatshefte für Mathematik und Physik}
+      \field{langid}{ngerman}
+      \field{month}{12}
+      \field{shortjournal}{Monatsh. f. Mathematik und Physik}
+      \field{shorttitle}{Geometrie der Dynamen}
+      \field{title}{Geometrie der Dynamen: Von E. Study. Leipzig, bei B. G. Teubner, 1903. XIII und 603 S. Preis 21 M. (geb. 23 M.)}
+      \field{urlday}{9}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{year}{1903}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{A70\bibrangedash A75}
+      \range{pages}{-1}
+      \field{volume}{14}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1007/BF01707030
+      \endverb
+      \verb{file}
+      \verb files/43/Zindler - 1903 - Geometrie der Dynamen Von E. Study. Leipzig, bei B. G. Teubner, 1903. XIII und 603 S. Preis 21 M. (.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/BF01707030
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/BF01707030
+      \endverb
+    \endentry
+    \entry{chelnokov2006кватернионные}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f4c0f384ce57daf1c0603622ddc61e34}{%
+           family={Челноков},
+           familyi={Ч\bibinitperiod},
+           given={Юрий\bibnamedelima Николаевич},
+           giveni={Ю\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Физматлит}%
+      }
+      \strng{namehash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{fullhash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{bibnamehash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{authorbibnamehash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{authornamehash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{authorfullhash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-5-9221-0680-1}
+      \field{title}{Кватернионные и Бикватернионные Модели и Методы Механики Твердого Тела и Их Приложения: Геометрия и Кинематика Движения}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://books.google.ru/books?id=8in3rQEACAAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.ru/books?id=8in3rQEACAAJ
+      \endverb
+    \endentry
+    \entry{altmann1986rotations}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f88eab4ea852d994e20612f0a1eaf149}{%
+           family={Altmann},
+           familyi={A\bibinitperiod},
+           given={S.L.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Clarendon Press}%
+      }
+      \strng{namehash}{f88eab4ea852d994e20612f0a1eaf149}
+      \strng{fullhash}{f88eab4ea852d994e20612f0a1eaf149}
+      \strng{bibnamehash}{f88eab4ea852d994e20612f0a1eaf149}
+      \strng{authorbibnamehash}{f88eab4ea852d994e20612f0a1eaf149}
+      \strng{authornamehash}{f88eab4ea852d994e20612f0a1eaf149}
+      \strng{authorfullhash}{f88eab4ea852d994e20612f0a1eaf149}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-19-855372-4}
+      \field{series}{Oxford Science Publications}
+      \field{title}{Rotations, Quaternions, and Double Groups}
+      \field{year}{1986}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://books.google.ru/books?id=K3CAQgAACAAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.ru/books?id=K3CAQgAACAAJ
+      \endverb
+    \endentry
+    \entry{jiaDualQuaternions2018}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=67510a14b40f44112ef5a37d6b07fe09}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Yan-Bin},
+           giveni={Y\bibinithyphendelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{67510a14b40f44112ef5a37d6b07fe09}
+      \strng{fullhash}{67510a14b40f44112ef5a37d6b07fe09}
+      \strng{bibnamehash}{67510a14b40f44112ef5a37d6b07fe09}
+      \strng{authorbibnamehash}{67510a14b40f44112ef5a37d6b07fe09}
+      \strng{authornamehash}{67510a14b40f44112ef5a37d6b07fe09}
+      \strng{authorfullhash}{67510a14b40f44112ef5a37d6b07fe09}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As we know, quaternions are very efficient for representing rotations with clear geometric meaning (rotation axis and angle) and only one redundancy. Unfortunately, they do not handle translations, which meanwhile can be made multiplicative along with rotations via the use of homogeneous coordinates. Despite also being 4-tuples, homogeneous coordinates are algebraically incompatible with quaternions. In 1873, dual quaternions were introduced by William Kingdom Clifford [1] in an effort to combine rotations and translations while retaining the benefits of the quaternion representation of rotations.}
+      \field{title}{Dual {{Quaternions}}}
+      \field{urlday}{9}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb \url{https://www.semanticscholar.org/paper/Dual-Quaternions-Jia/d11ee4eeb7e870faf8fe12136c12dfbf2026e030}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://www.semanticscholar.org/paper/Dual-Quaternions-Jia/d11ee4eeb7e870faf8fe12136c12dfbf2026e030%7D
+      \endverb
+    \endentry
+    \entry{ruheGeometricCliffordAlgebra2023}{online}{}
+      \name{author}{5}{}{%
+        {{hash=5eafae85d352173953cd0c1a272b536e}{%
+           family={Ruhe},
+           familyi={R\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=fe52f7f3365727a86a07b7c519c958b1}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Jayesh\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{useprefix=false,hash=9416f00f63c214b2b953b80f55461bca}{%
+           family={Keninck},
+           familyi={K\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=53d2880ad8047b61cdae2c6b2803e763}{%
+           family={Welling},
+           familyi={W\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4954f897f0e2228c69f8903b2e1e25d1}{%
+           family={Brandstetter},
+           familyi={B\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{df0c98a317649d1e6fd58e97a00eb89c}
+      \strng{fullhash}{90270edf8d301a1d4f12540bcffdf5f9}
+      \strng{bibnamehash}{90270edf8d301a1d4f12540bcffdf5f9}
+      \strng{authorbibnamehash}{90270edf8d301a1d4f12540bcffdf5f9}
+      \strng{authornamehash}{df0c98a317649d1e6fd58e97a00eb89c}
+      \strng{authorfullhash}{90270edf8d301a1d4f12540bcffdf5f9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We propose Geometric Clifford Algebra Networks (GCANs) for modeling dynamical systems. GCANs are based on symmetry group transformations using geometric (Clifford) algebras. We first review the quintessence of modern (plane-based) geometric algebra, which builds on isometries encoded as elements of the \$\textbackslash mathrm\{Pin\}(p,q,r)\$ group. We then propose the concept of group action layers, which linearly combine object transformations using pre-specified group actions. Together with a new activation and normalization scheme, these layers serve as adjustable \$\textbackslash textit\{geometric templates\}\$ that can be refined via gradient descent. Theoretical advantages are strongly reflected in the modeling of three-dimensional rigid body transformations as well as large-scale fluid dynamics simulations, showing significantly improved performance over traditional methods.}
+      \field{day}{29}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arXiv}
+      \field{month}{5}
+      \field{pubstate}{prepublished}
+      \field{title}{Geometric {{Clifford Algebra Networks}}}
+      \field{urlday}{9}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2302.06594
+      \endverb
+      \verb{eprint}
+      \verb 2302.06594
+      \endverb
+      \verb{file}
+      \verb files/50/Ruhe et al. - 2023 - Geometric Clifford Algebra Networks.pdf;files/51/2302.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2302.06594
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2302.06594
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
