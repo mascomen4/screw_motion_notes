@@ -111,6 +111,91 @@
 
   Где $A$ - дуальный угол. 
 
+  \subsubsection{Пример}
+  Возьмём прямую, лежащую в плоскости $Oxy$ и проходящую через точку $O$ под углом $45^\circ$ к осям $Ox$ и $Oy$. Запишем винт, соответствующий этой прямой.
+  Направляющий вектор прямой $\mathbf{v}=(1,1,0)^T$. Произвольная точка прямой - точка $O=(0,0,0)^T$. Если считать, что $\mathbf{v}$ отложен от $O$, то вычислим
+  момент по формуле $\mathbf{m} = \mathbf{p} \times \mathbf{v}$ так как $\mathbf{p}=(0,0,0)^T$. Поэтому соответствующий прямой $l$ винт $\mathbf{l}$ можно записать как
+  $\mathbf{l} = (1,1,0)^T + \varepsilon (0,0,0)^T = 1 i + 1 j = \mathbf{e}_x + \mathbf{e}_y$.
+
+  Рассмотрим теперь дуальный угол $A=\alpha+\varepsilon \alpha^\circ$ взяв конкретные значения $\alpha=\pi/4$ и $\alpha^\circ=1$. С помощью этого угла повернём прямую $l$
+  на угол $\alpha$ против часовой стрелки вокруг оси $Oz$ и поднимем на $1$ вдоль той же оси $Oz$. 
+
+  Чтобы это сделать запишем матрицу для вращения вокруг оси $Oz$ но заменим в ней угол на дуальный.
+
+  \begin{equation*}
+    R_z(A)=
+    \begin{bmatrix}
+      \cos A & -\sin A & 0 \\
+      \sin A & \cos A & 0 \\
+      0 & 0 & 1
+    \end{bmatrix}
+  \end{equation*}
+
+  Применим её к винту $\mathbf{l}$.
+
+  \begin{equation*}
+    \mathbf{l}'=R_z(A)\mathbf{l}=
+    \begin{bmatrix}
+      \cos A & -\sin A & 0 \\
+      \sin A & \cos A & 0 \\
+      0 & 0 & 1
+    \end{bmatrix}
+    \begin{bmatrix}
+      1 \\
+      1 \\
+      0
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+      \cos A - \sin A \\
+      \sin A + \cos A \\
+      0
+    \end{bmatrix}
+  \end{equation*}
+
+  \begin{align*}
+      \cos A - \sin A & =\cos \alpha - \varepsilon \alpha^\circ \sin \alpha - \sin \alpha - \varepsilon \alpha^\circ \cos \alpha =
+    \cos \alpha - \sin \alpha - (\cos \alpha + \sin \alpha)\varepsilon \alpha^\circ \\
+    \cos A + \sin A & = \cos \alpha - \varepsilon \alpha^\circ \sin \alpha + \varepsilon \alpha^\circ \cos \alpha =
+    \cos \alpha + \sin \alpha + (\cos \alpha - \sin \alpha)\varepsilon \alpha^\circ
+  \end{align*}
+
+  Подставим $A=\pi/4+\varepsilon$ и получим
+
+  \begin{align*}
+    \cos A - \sin A & = \cos \pi/4 - \sin \pi/4 + (\cos \pi/4 + \sin \pi/4)\varepsilon = \sqrt{2} \varepsilon \\
+    \cos A + \sin A & = \cos \pi/4 + \sin \pi/4 + (\cos \pi/4 - \sin \pi/4)\varepsilon = \sqrt{2}
+  \end{align*}
+
+  Из чего следует
+
+  \begin{equation*}
+    \mathbf{l}'=
+    \begin{bmatrix}
+      \sqrt{2} \varepsilon \\
+      \sqrt{2} \\
+      0
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+      0 \\
+      \sqrt{2} \\
+      0
+    \end{bmatrix}
+    + \varepsilon
+    \begin{bmatrix}
+      \sqrt{2} \\
+      0 \\
+      0
+    \end{bmatrix}
+  \end{equation*}
+
+  Если направляющий вектор нормировать то получим:
+
+  \begin{equation*}
+    \mathbf{l}' = (0,1,0)^T + \varepsilon (1,0,0)^T
+  \end{equation*}
+
   \section{Бикватернионы}
 
   Кватернионы могут использоваться для выражения поворотов \autocite[Гл. N]{chelnokov2006кватернионные} так как множество единичных кватернионов 
@@ -361,8 +446,12 @@
     4 & Винтовое дв-е & Центр & Четыревектор \\ \hline
 
     \end{tabular}
-    \end{table}
+  \end{table}
 
+  Приведенное винтовое движение применимо не только к плоскостям, но и к прямым. 
+
+
+  
   % ------------------------------------------------------- Example -------------------------------------------------------
   % \subsection{Факт №1}
 
