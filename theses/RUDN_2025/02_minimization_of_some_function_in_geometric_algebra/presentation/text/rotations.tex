@@ -1,0 +1,39 @@
+%%--------------------------
+\begin{frame}
+  \frametitle{Элементарные вращения}
+  Матрицы вращения вокруг осей декартовой системы координат:
+  \begin{equation*}
+    R_{x}(\alpha) = 
+    \begin{bmatrix}
+      1 & 0 & 0\\
+      0 & \cos\alpha & -\sin\alpha\\
+      0 & \sin\alpha & \cos\alpha
+    \end{bmatrix}
+    \;\;
+    R_{y}(\beta) = 
+    \begin{bmatrix}
+      \cos\beta & 0 & \sin\beta \\
+      0 & 1 & 0\\
+      -\sin\beta & 0 & \cos\beta
+    \end{bmatrix}
+    \;\;
+    R_{z}(\gamma) = 
+    \begin{bmatrix}
+      \cos\gamma & -\sin\gamma & 0\\
+      \sin\gamma & \cos\gamma & 0\\
+      0 & 0 & 1
+    \end{bmatrix}
+  \end{equation*}
+  \begin{itemize}
+    \item Вращается радиус вектор $\vb{p}$ или свободный вектор $\vb{v}$ вокруг оси $Ox$, $Oy$ или $Oz$.
+    \item Вращение происходит против часовой стрелки в правой системе координат.
+    \item Система координат остается неподвижной.
+  \end{itemize}
+  По теореме Эйлера любой поворот в трехмерном пространстве можно представить как последовательность из трех элементарных поворотов, где никакие два поворота подряд не осуществляются вокруг одной и той же оси. Это дает 12 разных комбинаций:
+  \begin{equation*}
+    \begin{matrix}
+      XYZ & YZX & ZXY & XZY & YXZ & ZYX \\
+      XYX & YZY & ZXZ & XZX & YXY & ZYZ
+    \end{matrix}
+  \end{equation*}
+\end{frame}

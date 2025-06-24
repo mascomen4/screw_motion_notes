@@ -1,0 +1,128 @@
+\begin{frame}
+  \frametitle{Дуальные бикватернионы}
+  Дуальные или параболические \emph{бикватернионы} получаются из кватернионов $q = q_0 + q_1\i + q_2 \j + q_3 \k$ с помощью процедуры удвоения при замене действительных коэффициентов $q_0,q_1,q_2,q_3$ на дуальные числа $Q_0$, $Q_1$, $Q_2$, $Q_3$.
+  \begin{equation*}
+    Q = Q_0 + Q_1\i + Q_2\j + Q_3 k = Q_0 + \vb{Q},
+  \end{equation*}
+  где $Q_0$ --- \emph{скалярная} часть (дуальное число), а $\vb{Q}$ --- \emph{винтовая} часть (дуальный вектор).
+
+  Для двух бикватернионов
+  \begin{equation*}
+    Q = Q_0 + Q_1\i + Q_2\j + Q_3 k = Q_0 + \vb{Q},
+    P = P_0 + P_1\i + P_2\j + P_3 k = P_0 + \vb{P},
+  \end{equation*}
+  можно аналогично кватернионам доказать формулу для \emph{бикватернионного произведения}
+  \begin{equation*}
+    PQ = P_0Q_0 - (\vb{P}, \vb{Q}) + P_0 \vb{Q} + Q_0\vb{P} + \vb{P}\times\vb{Q}
+  \end{equation*}
+\end{frame}
+%%----------------------------------------------------------
+\begin{frame}
+  \frametitle{Кватернионное и дуальное представления бикватернионов}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \begin{equation*}
+        Q = q + q^o\varepsilon, \;\;
+        q, q^o \in \mathbb{H},\;\;
+        \varepsilon^2 = 0,\;\;
+        \varepsilon \not = 0,
+      \end{equation*}
+      где $q$ --- главная часть, $q^o$ --- моментная часть.
+      \begin{equation*}
+        q = q_0 + q_1 \i + q_2 \j + q_3 \k,\;\;
+        q^o = q^o_0 + q^o_1 \i + q^o_2 \j + q^o_3 \k.
+      \end{equation*}
+      Бикватернионное умножение:
+      \begin{equation*}
+        PQ = pq + (pq^o + p^oq)\varepsilon,
+      \end{equation*}
+      где $pq$, $pq^o$, $p^oq$ --- кватернионные умножения.
+
+      Скалярное произведение бикватернионов:
+      \begin{equation*}
+        (P, Q) = (p, q) + [(p^o, q) + (p, q^o)]\varepsilon,
+      \end{equation*}
+      $(p, q)$, $(p^o, q)$, $(p, q^o)$ --- скалярные произведения кватернионов.
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{equation*}
+        Q = Q_0 + Q_1 \i + Q_2 \j + Q_3 \k = Q_0 + \vb{Q}
+      \end{equation*}
+      $Q_0, Q_1, Q_2, Q_3$ --- дуальные числа, $Q_0$ --- скалярная часть, $\vb{Q}$ --- винтовая часть.
+      
+      Бикватернионное умножение
+      \begin{equation*}
+        PQ = P_0Q_0 - (\vb{P}, \vb{Q}) + P_0 \vb{Q} + Q_0 \vb{P} + \vb{P}\times \vb{Q},
+      \end{equation*}
+      где $(\vb{P}, \vb{Q})$, $\vb{P}\times\vb{Q}$ --- скалярное и винтовое умножения винтов, $P_0 \vb{Q}$,  $Q_0 \vb{P}$ ---умножение винта на дуальное число.
+
+      Скалярное произведение бикватернионов:
+      \begin{equation*}
+        (P, Q) = P_0Q_0 + P_1Q_1 + P_2Q_2 + P_3Q_3
+      \end{equation*}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Бикватернионное представление точки, прямой и плоскости}
+  \begin{center}
+    \begin{tblr}{
+      width={0.9\linewidth},
+      hline{1,2,Z} = {1.0pt,solid},
+      hline{3-Y} = {0.2pt,solid},
+      vlines = {dashed},
+      vline{1,2,Z} = {1pt,solid}
+    }
+      {Геометрический\\объект} & {Бикватернионное\\представление} & {Однородные\\координаты} & {Трехмерное\\декартово пространство}\\
+      Аффинная точка & $P = 1 + \vb{p}\varepsilon$, $\vb{p} = x\i +y\j + z\k$ & $\va{p} = (\vb{p} \mid 1) = (x, y, z \mid 1)$ & $\vb{p} = (x, y, z)^T$ \\
+      Точечная масса & $P = w + \vb{p}\varepsilon$ & $\va{p} = (\vb{p} \mid w) = (x, y, z \mid w)$ & $\vb{p} = (x/w, y/w, z/w)$\\
+      Вектор & $V = \vb{v}\varepsilon$, $\vb{v} = v_x \i + v_y \j + v_z\k$ & $\va{v} = (\vb{v} \mid 0) = (v_x, v_y, v_z \mid 0)$ & $\vb{v} = (v_x, v_y, v_z)^T$\\
+      Прямая & {$\vb{L} = \vb{v} + \vb{m}\varepsilon$\\$P(t) = P_0 + \vb{v}t\varepsilon$, $P_0 = 1 + \dfrac{\vb{v}\times\vb{m}}{\norm{\vb{v}}^2}\varepsilon$} & {$\va{L} = \{\vb{v} \mid \vb{m}\}$\\ $\va{p} = (\vb{v}\times\vb{m} \mid \norm{\vb{v}}^2)$} & $\vb{p}(t) = \vb{p}_0 +\vb{v}t$\\
+      Плоскость & $\Pi = \vb{n} + d\varepsilon$, $\vb{n} = n_x\i+n_y\j+n_z\k$ & $\va{\pi} = [\vb{n}\mid d]$ & $ax+by+cz+d=0$\\
+    \end{tblr}
+  \end{center}
+\end{frame}
+%%----------------------------------------------------------
+\begin{frame}
+  \frametitle{Сопоставление терминов}
+  \begin{center}
+    \begin{tblr}{
+      width={0.95\linewidth},
+      hline{1,2,Z} = {1.0pt,solid},
+      hline{3-Y} = {0.2pt,solid},
+      vlines = {dashed},
+      vline{1,2,Z} = {1pt,solid}
+    }
+    \textbf{Аффинная точка} & \textbf{Вектор} & \textbf{Точечная масса} & \textbf{Винт}\\
+    {
+      - конечная точка\\
+      - собственная точка\\
+      - радиус вектор\\
+      - связанный вектор\\
+      - вектор точка\\
+      - кватернион с $q_0=1$
+    }
+    &
+    {
+      - точка на бесконечности\\
+      - несобственная точка\\
+      - свободный вектор\\
+      - вектор направление\\
+      - чистый кватернион
+    }
+    &
+    {
+      - конечная точка с $w \neq 1$\\
+      - кватернион с $q_0 \neq 1$
+    }
+    &
+    {
+      - чистый бикватернион\\
+      - дуальный вектор\\
+      - диада\\
+      - нуль система
+    }
+    \end{tblr}
+  \end{center}
+\end{frame}

@@ -1,0 +1,437 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Lengyel:GameEngine:v1:2016}{book}{}
+      \name{author}{1}{}{%
+        {{hash=79e4bd53885ca536f77af64ad5895836}{%
+           family={Lengyel},
+           familyi={L\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{location}{1}{%
+        {Lincoln, California}%
+      }
+      \list{publisher}{1}{%
+        {Terathon Software LLC}%
+      }
+      \strng{namehash}{79e4bd53885ca536f77af64ad5895836}
+      \strng{fullhash}{79e4bd53885ca536f77af64ad5895836}
+      \strng{bibnamehash}{79e4bd53885ca536f77af64ad5895836}
+      \strng{authorbibnamehash}{79e4bd53885ca536f77af64ad5895836}
+      \strng{authornamehash}{79e4bd53885ca536f77af64ad5895836}
+      \strng{authorfullhash}{79e4bd53885ca536f77af64ad5895836}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780985811747}
+      \field{langid}{english}
+      \field{maintitle}{Foundations of Game Engine Development}
+      \field{pagetotal}{195}
+      \field{title}{Mathematics}
+      \field{volume}{1}
+      \field{volumes}{4}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb http://foundationsofgameenginedev.com
+      \endverb
+      \verb{url}
+      \verb http://foundationsofgameenginedev.com
+      \endverb
+    \endentry
+    \entry{Chelnokov:2006}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f4c0f384ce57daf1c0603622ddc61e34}{%
+           family={Челноков},
+           familyi={Ч\bibinitperiod},
+           given={Юрий\bibnamedelima Николаевич},
+           giveni={Ю\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=04de3934052df97c672a103be12e93c5}{%
+           family={Легостаева},
+           familyi={Л\bibinitperiod},
+           given={И.\bibnamedelimi Л.},
+           giveni={И\bibinitperiod\bibinitdelim Л\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Москва}%
+      }
+      \list{publisher}{1}{%
+        {ФИЗМАТЛИТ}%
+      }
+      \strng{namehash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{fullhash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{bibnamehash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{authorbibnamehash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{authornamehash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{authorfullhash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{editorbibnamehash}{04de3934052df97c672a103be12e93c5}
+      \strng{editornamehash}{04de3934052df97c672a103be12e93c5}
+      \strng{editorfullhash}{04de3934052df97c672a103be12e93c5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{5922106805}
+      \field{label}{Chelnokov:2006}
+      \field{langid}{russian}
+      \field{pagetotal}{512}
+      \field{title}{Кватернионные и бикватернионные модели и методы механики твердого тела и их приложения. Геометрия и кинематика движения}
+      \field{year}{2006}
+      \field{dateera}{ce}
+    \endentry
+    \entry{KleinHoherGeometrie}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b09c9419c95be4e96f62368469c16efd}{%
+           family={Клейн},
+           familyi={К\bibinitperiod},
+           given={Феликс},
+           giveni={Ф\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=0c64d54870a8ef4bb270a351f369a9ed}{%
+           family={Бляшке},
+           familyi={Б\bibinitperiod},
+           given={В},
+           giveni={В\bibinitperiod}}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=13e45152f9609df36597e2ce577afbbc}{%
+           family={Брушлинский},
+           familyi={Б\bibinitperiod},
+           given={Н.\bibnamedelimi К.},
+           giveni={Н\bibinitperiod\bibinitdelim К\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Москва}%
+      }
+      \list{origlanguage}{1}{%
+        {german}%
+      }
+      \list{publisher}{1}{%
+        {Книжный дом «ЛИБРОКОМ»}%
+      }
+      \strng{namehash}{b09c9419c95be4e96f62368469c16efd}
+      \strng{fullhash}{b09c9419c95be4e96f62368469c16efd}
+      \strng{bibnamehash}{b09c9419c95be4e96f62368469c16efd}
+      \strng{authorbibnamehash}{b09c9419c95be4e96f62368469c16efd}
+      \strng{authornamehash}{b09c9419c95be4e96f62368469c16efd}
+      \strng{authorfullhash}{b09c9419c95be4e96f62368469c16efd}
+      \strng{editorbibnamehash}{0c64d54870a8ef4bb270a351f369a9ed}
+      \strng{editornamehash}{0c64d54870a8ef4bb270a351f369a9ed}
+      \strng{editorfullhash}{0c64d54870a8ef4bb270a351f369a9ed}
+      \strng{translatorbibnamehash}{13e45152f9609df36597e2ce577afbbc}
+      \strng{translatornamehash}{13e45152f9609df36597e2ce577afbbc}
+      \strng{translatorfullhash}{13e45152f9609df36597e2ce577afbbc}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{isbn}{9785397001069}
+      \field{langid}{russian}
+      \field{origtitle}{Vorlesungen Über Höhere Geometrie}
+      \field{pagetotal}{400}
+      \field{title}{Высшая геометрия}
+      \field{year}{2009}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Kotelnikov:2019}{book}{}
+      \name{author}{1}{}{%
+        {{hash=312e1e1009feacbce825d7b333d830e0}{%
+           family={Котельников},
+           familyi={К\bibinitperiod},
+           given={Александр\bibnamedelima Петрович},
+           giveni={А\bibinitperiod\bibinitdelim П\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Москва}%
+      }
+      \list{publisher}{1}{%
+        {КомКнига}%
+      }
+      \strng{namehash}{312e1e1009feacbce825d7b333d830e0}
+      \strng{fullhash}{312e1e1009feacbce825d7b333d830e0}
+      \strng{bibnamehash}{312e1e1009feacbce825d7b333d830e0}
+      \strng{authorbibnamehash}{312e1e1009feacbce825d7b333d830e0}
+      \strng{authornamehash}{312e1e1009feacbce825d7b333d830e0}
+      \strng{authorfullhash}{312e1e1009feacbce825d7b333d830e0}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9785484014774}
+      \field{label}{Kotelnikov:2019}
+      \field{langid}{russian}
+      \field{pagetotal}{222}
+      \field{title}{Винтовое счисление и некоторые приложения его к геометрии и механике}
+      \field{year}{2019}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Dimentberg:1965}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7eb86d29164d79e32387f81d5f543506}{%
+           family={Диментберг},
+           familyi={Д\bibinitperiod},
+           given={Федор\bibnamedelima Менасьевич},
+           giveni={Ф\bibinitperiod\bibinitdelim М\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=7f976dd3baf9b303871b64766b361d87}{%
+           family={Антонов},
+           familyi={А\bibinitperiod},
+           given={И.\bibnamedelimi Л.},
+           giveni={И\bibinitperiod\bibinitdelim Л\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Москва}%
+      }
+      \list{publisher}{1}{%
+        {Издательство <<Наука>> главная редакция физико-математической литературы}%
+      }
+      \strng{namehash}{7eb86d29164d79e32387f81d5f543506}
+      \strng{fullhash}{7eb86d29164d79e32387f81d5f543506}
+      \strng{bibnamehash}{7eb86d29164d79e32387f81d5f543506}
+      \strng{authorbibnamehash}{7eb86d29164d79e32387f81d5f543506}
+      \strng{authornamehash}{7eb86d29164d79e32387f81d5f543506}
+      \strng{authorfullhash}{7eb86d29164d79e32387f81d5f543506}
+      \strng{editorbibnamehash}{7f976dd3baf9b303871b64766b361d87}
+      \strng{editornamehash}{7f976dd3baf9b303871b64766b361d87}
+      \strng{editorfullhash}{7f976dd3baf9b303871b64766b361d87}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{label}{Dimentberg:1965}
+      \field{langid}{russian}
+      \field{pagetotal}{200}
+      \field{title}{Винтовое исчисление и его приложение в механике}
+      \field{year}{1965}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Goldman2024}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d462693c0a601eff24aa363ac9330e5f}{%
+           family={Goldman},
+           familyi={G\bibinitperiod},
+           given={Ron},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{location}{1}{%
+        {Boca Raton, London, New York}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press Taylor \& Francis Group}%
+      }
+      \strng{namehash}{d462693c0a601eff24aa363ac9330e5f}
+      \strng{fullhash}{d462693c0a601eff24aa363ac9330e5f}
+      \strng{bibnamehash}{d462693c0a601eff24aa363ac9330e5f}
+      \strng{authorbibnamehash}{d462693c0a601eff24aa363ac9330e5f}
+      \strng{authornamehash}{d462693c0a601eff24aa363ac9330e5f}
+      \strng{authorfullhash}{d462693c0a601eff24aa363ac9330e5f}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781032502977}
+      \field{langid}{english}
+      \field{pagetotal}{279}
+      \field{title}{Dual Quaternions and Their Associated Clifford Algebras}
+      \field{year}{2024}
+      \field{dateera}{ce}
+    \endentry
+    \entry{gevorkyanApproachesImplementationGeneralized2020}{online}{}
+      \name{author}{3}{}{%
+        {{hash=e4c3dde1d1b302f26445b4b41a8989fe}{%
+           family={Gevorkyan},
+           familyi={G\bibinitperiod},
+           given={Migran\bibnamedelima N.},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=2374bdcce3835058e1015db090a89477}{%
+           family={Korolkova},
+           familyi={K\bibinitperiod},
+           given={Anna\bibnamedelima V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=057dad34cfb50f63d58a3c092f0d96ff}{%
+           family={Kulyabov},
+           familyi={K\bibinitperiod},
+           given={Dmitry\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{5dd39fb4b79155e783e4bd7811fc7abb}
+      \strng{fullhash}{5dd39fb4b79155e783e4bd7811fc7abb}
+      \strng{bibnamehash}{5dd39fb4b79155e783e4bd7811fc7abb}
+      \strng{authorbibnamehash}{5dd39fb4b79155e783e4bd7811fc7abb}
+      \strng{authornamehash}{5dd39fb4b79155e783e4bd7811fc7abb}
+      \strng{authorfullhash}{5dd39fb4b79155e783e4bd7811fc7abb}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In problems of mathematical physics, to study the structures of spaces using the Cayley-Klein models in theoretical calculations, the use of generalized complex numbers is required. In the case of computational experiments, such tasks require their high-quality implementation in a programming language. The proposed small implementation of generalized complex numbers in modern programming languages have several disadvantages. In this article, we propose using the Julia language as the language for implementing generalized complex numbers, not least because it supports the multiple dispatch mechanism. The paper demonstrates the approach to the implementation of one of the types of generalized complex numbers, namely dual numbers. We place particular emphasis on the description of the use of the multiple dispatch mechanism to implement a new numerical type. The resulting implementation of dual numbers can be considered as a prototype for a complete software module for supporting generalized complex numbers.}
+      \field{day}{19}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arXiv}
+      \field{month}{7}
+      \field{note}{Comment: in English; in Russian}
+      \field{pubstate}{prepublished}
+      \field{title}{Approaches to the Implementation of Generalized Complex Numbers in the {{Julia}} Language}
+      \field{urlday}{23}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2007.09737
+      \endverb
+      \verb{eprint}
+      \verb 2007.09737
+      \endverb
+      \verb{file}
+      \verb files/62/Gevorkyan et al. - 2020 - Approaches to the implementation of generalized complex numbers in the Julia language.pdf;files/63/2007.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2007.09737
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2007.09737
+      \endverb
+      \keyw{Computer Science - Mathematical Software}
+    \endentry
+    \entry{cliffordPreliminarySketchBiquaternions1871}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4c4844cc040e8cc73408c3bad7cc7ebf}{%
+           family={{Clifford}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{4c4844cc040e8cc73408c3bad7cc7ebf}
+      \strng{fullhash}{4c4844cc040e8cc73408c3bad7cc7ebf}
+      \strng{bibnamehash}{4c4844cc040e8cc73408c3bad7cc7ebf}
+      \strng{authorbibnamehash}{4c4844cc040e8cc73408c3bad7cc7ebf}
+      \strng{authornamehash}{4c4844cc040e8cc73408c3bad7cc7ebf}
+      \strng{authorfullhash}{4c4844cc040e8cc73408c3bad7cc7ebf}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00246115}
+      \field{journaltitle}{Proceedings of the London Mathematical Society}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{1}
+      \field{shortjournal}{Proceedings of the London Mathematical Society}
+      \field{title}{Preliminary {{Sketch}} of {{Biquaternions}}}
+      \field{urlday}{9}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{s1-4}
+      \field{year}{1871}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{381\bibrangedash 395}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1112/plms/s1-4.1.381
+      \endverb
+      \verb{file}
+      \verb files/41/Clifford - 1871 - Preliminary Sketch of Biquaternions.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://doi.wiley.com/10.1112/plms/s1-4.1.381
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1112/plms/s1-4.1.381
+      \endverb
+    \endentry
+    \entry{zindlerGeometrieDynamenStudy1903}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e5494053be76fcb797c0e8582c4c6cee}{%
+           family={Zindler},
+           familyi={Z\bibinitperiod},
+           given={Konrad},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{e5494053be76fcb797c0e8582c4c6cee}
+      \strng{fullhash}{e5494053be76fcb797c0e8582c4c6cee}
+      \strng{bibnamehash}{e5494053be76fcb797c0e8582c4c6cee}
+      \strng{authorbibnamehash}{e5494053be76fcb797c0e8582c4c6cee}
+      \strng{authornamehash}{e5494053be76fcb797c0e8582c4c6cee}
+      \strng{authorfullhash}{e5494053be76fcb797c0e8582c4c6cee}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0026-9255, 1436-5081}
+      \field{journaltitle}{Monatshefte für Mathematik und Physik}
+      \field{langid}{ngerman}
+      \field{month}{12}
+      \field{number}{1}
+      \field{shortjournal}{Monatsh. f. Mathematik und Physik}
+      \field{shorttitle}{Geometrie der Dynamen}
+      \field{title}{Geometrie der Dynamen: Von E. Study. Leipzig, bei B. G. Teubner, 1903. XIII und 603 S. Preis 21 M. (geb. 23 M.)}
+      \field{urlday}{9}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{14}
+      \field{year}{1903}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{A70\bibrangedash A75}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1007/BF01707030
+      \endverb
+      \verb{file}
+      \verb files/43/Zindler - 1903 - Geometrie der Dynamen Von E. Study. Leipzig, bei B. G. Teubner, 1903. XIII und 603 S. Preis 21 M. (.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/BF01707030
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/BF01707030
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

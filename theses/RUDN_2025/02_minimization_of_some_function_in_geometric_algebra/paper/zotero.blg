@@ -1,0 +1,5 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'zotero.blg'
+[71] biber:340> INFO - === Wed May 14, 2025, 10:29:58
+[188] Utils.pm:410> ERROR - Cannot find 'zotero.bcf'!
+[189] Biber.pm:135> INFO - ERRORS: 1

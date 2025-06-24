@@ -1,0 +1,335 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{Dimentberg:1965}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=7eb86d29164d79e32387f81d5f543506}{%
+           family={Диментберг},
+           familyi={Д\bibinitperiod},
+           given={Федор\bibnamedelima Менасьевич},
+           giveni={Ф\bibinitperiod\bibinitdelim М\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=7f976dd3baf9b303871b64766b361d87}{%
+           family={Антонов},
+           familyi={А\bibinitperiod},
+           given={И.\bibnamedelimi Л.},
+           giveni={И\bibinitperiod\bibinitdelim Л\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Москва}%
+      }
+      \list{publisher}{1}{%
+        {Издательство <<Наука>> главная редакция физико-математической литературы}%
+      }
+      \strng{namehash}{7eb86d29164d79e32387f81d5f543506}
+      \strng{fullhash}{7eb86d29164d79e32387f81d5f543506}
+      \strng{fullhashraw}{7eb86d29164d79e32387f81d5f543506}
+      \strng{bibnamehash}{7eb86d29164d79e32387f81d5f543506}
+      \strng{authorbibnamehash}{7eb86d29164d79e32387f81d5f543506}
+      \strng{authornamehash}{7eb86d29164d79e32387f81d5f543506}
+      \strng{authorfullhash}{7eb86d29164d79e32387f81d5f543506}
+      \strng{authorfullhashraw}{7eb86d29164d79e32387f81d5f543506}
+      \strng{editorbibnamehash}{7f976dd3baf9b303871b64766b361d87}
+      \strng{editornamehash}{7f976dd3baf9b303871b64766b361d87}
+      \strng{editorfullhash}{7f976dd3baf9b303871b64766b361d87}
+      \strng{editorfullhashraw}{7f976dd3baf9b303871b64766b361d87}
+      \field{sortinit}{Д}
+      \field{sortinithash}{1acf1490327dfefb00e074ab043a2e03}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{label}{Dimentberg:1965}
+      \field{langid}{russian}
+      \field{pagetotal}{200}
+      \field{title}{Винтовое исчисление и его приложение в механике}
+      \field{year}{1965}
+      \field{dateera}{ce}
+    \endentry
+    \entry{KleinHoherGeometrie}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=b09c9419c95be4e96f62368469c16efd}{%
+           family={Клейн},
+           familyi={К\bibinitperiod},
+           given={Феликс},
+           giveni={Ф\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=0c64d54870a8ef4bb270a351f369a9ed}{%
+           family={Бляшке},
+           familyi={Б\bibinitperiod},
+           given={В},
+           giveni={В\bibinitperiod}}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=13e45152f9609df36597e2ce577afbbc}{%
+           family={Брушлинский},
+           familyi={Б\bibinitperiod},
+           given={Н.\bibnamedelimi К.},
+           giveni={Н\bibinitperiod\bibinitdelim К\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Москва}%
+      }
+      \list{origlanguage}{1}{%
+        {german}%
+      }
+      \list{publisher}{1}{%
+        {Книжный дом «ЛИБРОКОМ»}%
+      }
+      \strng{namehash}{b09c9419c95be4e96f62368469c16efd}
+      \strng{fullhash}{b09c9419c95be4e96f62368469c16efd}
+      \strng{fullhashraw}{b09c9419c95be4e96f62368469c16efd}
+      \strng{bibnamehash}{b09c9419c95be4e96f62368469c16efd}
+      \strng{authorbibnamehash}{b09c9419c95be4e96f62368469c16efd}
+      \strng{authornamehash}{b09c9419c95be4e96f62368469c16efd}
+      \strng{authorfullhash}{b09c9419c95be4e96f62368469c16efd}
+      \strng{authorfullhashraw}{b09c9419c95be4e96f62368469c16efd}
+      \strng{editorbibnamehash}{0c64d54870a8ef4bb270a351f369a9ed}
+      \strng{editornamehash}{0c64d54870a8ef4bb270a351f369a9ed}
+      \strng{editorfullhash}{0c64d54870a8ef4bb270a351f369a9ed}
+      \strng{editorfullhashraw}{0c64d54870a8ef4bb270a351f369a9ed}
+      \strng{translatorbibnamehash}{13e45152f9609df36597e2ce577afbbc}
+      \strng{translatornamehash}{13e45152f9609df36597e2ce577afbbc}
+      \strng{translatorfullhash}{13e45152f9609df36597e2ce577afbbc}
+      \strng{translatorfullhashraw}{13e45152f9609df36597e2ce577afbbc}
+      \field{sortinit}{К}
+      \field{sortinithash}{007824ff2af181c6f6762379475efd5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{isbn}{9785397001069}
+      \field{langid}{russian}
+      \field{origtitle}{Vorlesungen Über Höhere Geometrie}
+      \field{pagetotal}{400}
+      \field{title}{Высшая геометрия}
+      \field{year}{2009}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Chelnokov:2006}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=f4c0f384ce57daf1c0603622ddc61e34}{%
+           family={Челноков},
+           familyi={Ч\bibinitperiod},
+           given={Юрий\bibnamedelima Николаевич},
+           giveni={Ю\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=04de3934052df97c672a103be12e93c5}{%
+           family={Легостаева},
+           familyi={Л\bibinitperiod},
+           given={И.\bibnamedelimi Л.},
+           giveni={И\bibinitperiod\bibinitdelim Л\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Москва}%
+      }
+      \list{publisher}{1}{%
+        {ФИЗМАТЛИТ}%
+      }
+      \strng{namehash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{fullhash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{fullhashraw}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{bibnamehash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{authorbibnamehash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{authornamehash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{authorfullhash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{authorfullhashraw}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{editorbibnamehash}{04de3934052df97c672a103be12e93c5}
+      \strng{editornamehash}{04de3934052df97c672a103be12e93c5}
+      \strng{editorfullhash}{04de3934052df97c672a103be12e93c5}
+      \strng{editorfullhashraw}{04de3934052df97c672a103be12e93c5}
+      \field{sortinit}{Ч}
+      \field{sortinithash}{6938aa9a16694a508738b73afded611d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{5922106805}
+      \field{label}{Chelnokov:2006}
+      \field{langid}{russian}
+      \field{pagetotal}{512}
+      \field{title}{Кватернионные и бикватернионные модели и методы механики твердого тела и их приложения. Геометрия и кинематика движения}
+      \field{year}{2006}
+      \field{dateera}{ce}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{2}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{Buhgoltz1965}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=87f6eba32a9536cb818c40fac32234b2}{%
+           family={Бухгольц},
+           familyi={Б\bibinitperiod},
+           given={Николай\bibnamedelima Николаевич},
+           giveni={Н\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=aa66a156e7c0f1dc73191ddbfe11159a}{%
+           family={Маркузон},
+           familyi={М\bibinitperiod},
+           given={И.\bibnamedelimi А.},
+           giveni={И\bibinitperiod\bibinitdelim А\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Москва}%
+      }
+      \list{publisher}{1}{%
+        {Наука}%
+      }
+      \strng{namehash}{87f6eba32a9536cb818c40fac32234b2}
+      \strng{fullhash}{87f6eba32a9536cb818c40fac32234b2}
+      \strng{fullhashraw}{87f6eba32a9536cb818c40fac32234b2}
+      \strng{bibnamehash}{87f6eba32a9536cb818c40fac32234b2}
+      \strng{authorbibnamehash}{87f6eba32a9536cb818c40fac32234b2}
+      \strng{authornamehash}{87f6eba32a9536cb818c40fac32234b2}
+      \strng{authorfullhash}{87f6eba32a9536cb818c40fac32234b2}
+      \strng{authorfullhashraw}{87f6eba32a9536cb818c40fac32234b2}
+      \strng{editorbibnamehash}{aa66a156e7c0f1dc73191ddbfe11159a}
+      \strng{editornamehash}{aa66a156e7c0f1dc73191ddbfe11159a}
+      \strng{editorfullhash}{aa66a156e7c0f1dc73191ddbfe11159a}
+      \strng{editorfullhashraw}{aa66a156e7c0f1dc73191ddbfe11159a}
+      \field{sortinit}{Б}
+      \field{sortinithash}{5261f8dfa92113358b76bb09b8629977}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{maintitle}
+      \field{edition}{6, переработанное и дополненное С. М. Тарогом}
+      \field{internalsortvolume}{1}
+      \field{langid}{russian}
+      \field{maintitle}{Основной курс теоретической механики}
+      \field{pagetotal}{468}
+      \field{title}{Кинематика, статика, динамика материальной точки}
+      \field{volumes}{2}
+      \field{year}{1965}
+      \field{dateera}{ce}
+      \field{volume}{1}
+      \range{volume}{1}
+    \endentry
+    \entry{Dimentberg:1965}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=7eb86d29164d79e32387f81d5f543506}{%
+           family={Диментберг},
+           familyi={Д\bibinitperiod},
+           given={Федор\bibnamedelima Менасьевич},
+           giveni={Ф\bibinitperiod\bibinitdelim М\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=7f976dd3baf9b303871b64766b361d87}{%
+           family={Антонов},
+           familyi={А\bibinitperiod},
+           given={И.\bibnamedelimi Л.},
+           giveni={И\bibinitperiod\bibinitdelim Л\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Москва}%
+      }
+      \list{publisher}{1}{%
+        {Издательство <<Наука>> главная редакция физико-математической литературы}%
+      }
+      \strng{namehash}{7eb86d29164d79e32387f81d5f543506}
+      \strng{fullhash}{7eb86d29164d79e32387f81d5f543506}
+      \strng{fullhashraw}{7eb86d29164d79e32387f81d5f543506}
+      \strng{bibnamehash}{7eb86d29164d79e32387f81d5f543506}
+      \strng{authorbibnamehash}{7eb86d29164d79e32387f81d5f543506}
+      \strng{authornamehash}{7eb86d29164d79e32387f81d5f543506}
+      \strng{authorfullhash}{7eb86d29164d79e32387f81d5f543506}
+      \strng{authorfullhashraw}{7eb86d29164d79e32387f81d5f543506}
+      \strng{editorbibnamehash}{7f976dd3baf9b303871b64766b361d87}
+      \strng{editornamehash}{7f976dd3baf9b303871b64766b361d87}
+      \strng{editorfullhash}{7f976dd3baf9b303871b64766b361d87}
+      \strng{editorfullhashraw}{7f976dd3baf9b303871b64766b361d87}
+      \field{sortinit}{Д}
+      \field{sortinithash}{1acf1490327dfefb00e074ab043a2e03}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{label}{Dimentberg:1965}
+      \field{langid}{russian}
+      \field{pagetotal}{200}
+      \field{title}{Винтовое исчисление и его приложение в механике}
+      \field{year}{1965}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Chelnokov:2006}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=f4c0f384ce57daf1c0603622ddc61e34}{%
+           family={Челноков},
+           familyi={Ч\bibinitperiod},
+           given={Юрий\bibnamedelima Николаевич},
+           giveni={Ю\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=04de3934052df97c672a103be12e93c5}{%
+           family={Легостаева},
+           familyi={Л\bibinitperiod},
+           given={И.\bibnamedelimi Л.},
+           giveni={И\bibinitperiod\bibinitdelim Л\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \list{location}{1}{%
+        {Москва}%
+      }
+      \list{publisher}{1}{%
+        {ФИЗМАТЛИТ}%
+      }
+      \strng{namehash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{fullhash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{fullhashraw}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{bibnamehash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{authorbibnamehash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{authornamehash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{authorfullhash}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{authorfullhashraw}{f4c0f384ce57daf1c0603622ddc61e34}
+      \strng{editorbibnamehash}{04de3934052df97c672a103be12e93c5}
+      \strng{editornamehash}{04de3934052df97c672a103be12e93c5}
+      \strng{editorfullhash}{04de3934052df97c672a103be12e93c5}
+      \strng{editorfullhashraw}{04de3934052df97c672a103be12e93c5}
+      \field{sortinit}{Ч}
+      \field{sortinithash}{6938aa9a16694a508738b73afded611d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{5922106805}
+      \field{label}{Chelnokov:2006}
+      \field{langid}{russian}
+      \field{pagetotal}{512}
+      \field{title}{Кватернионные и бикватернионные модели и методы механики твердого тела и их приложения. Геометрия и кинематика движения}
+      \field{year}{2006}
+      \field{dateera}{ce}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

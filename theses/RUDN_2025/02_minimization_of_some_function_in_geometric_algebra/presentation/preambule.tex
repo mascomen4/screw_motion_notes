@@ -1,0 +1,240 @@
+\documentclass[
+  8pt,
+  aspectratio=169,
+  russian,
+  lualatex,
+  usepdftitle={false},
+  usenames,
+  dvipsnames,
+  % ignorenonframetext,
+  % notheorems,
+  % draft,
+]{beamer}
+
+  
+% \documentclass[russian,12pt]{article}
+% \usepackage[noamssymb]{beamerarticle}
+
+\mode<article> {
+  %% Задаем размер полей путем указания области, занимаемой текстом
+  \usepackage[a4paper, total={6.5in, 10in}]{geometry}
+  \usepackage{fullpage}
+  % В режиме презентации hyperref загружается сам
+  \usepackage{hyperref}
+  \usepackage{graphicx}
+}
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% Настройки, специфические для режима презентации
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\mode<presentation>{%
+  \usetheme{metropolis}
+  \metroset{%
+    % показывать отдельный слайд  для заголовков/подзаголовков
+    sectionpage=progressbar, %none, simple, progressbar
+    subsectionpage=progressbar, 
+    numbering=fraction, % номер слайда/ все слайды
+    progressbar=foot, % прогресс всех слайдов
+    block=fill
+  }
+  % Делаем фон слайдов белого цвета, а шрифт черного
+  \setbeamercolor{background canvas}{bg=white}
+  \setbeamercolor{normal text}{fg=black}
+  % Заголовок слайдов, фоновый цвет
+  \setbeamercolor{frametitle}{bg=Blue}
+  \setbeamercolor{alerted text}{fg=Red}
+  % Размер слайда
+  \setbeamersize{text margin left=5mm,text margin right=5mm}
+  % Нумеровать слайды при автоматическим разбиении
+  \setbeamertemplate{frametitle continuation}{\insertcontinuationcount}
+  % Не уменьшать размер шрифта для подпунктов пунктов списка
+  % to set the body size
+  \setbeamerfont{itemize/enumerate subbody}{size=\normalsize}
+  % Символ для маркера списка второго уровня
+  % \setbeamertemplate{itemize subitem}{\normalsize\hbox{\donotcoloroutermaths$\blacktriangleright$}}
+  % Настройка блоков
+  \setbeamertemplate{blocks}[rounded,shadow=false]
+  \setbeamercolor{block title}{bg=gray!10,fg=black}
+  \setbeamercolor{block body}{bg=gray!10,fg=black}
+  % Блок example
+  \setbeamercolor{block title example}{bg=gray!10,fg=black}
+  \setbeamercolor{block body example}{bg=gray!10,fg=black}
+  % Блок theorem
+  \setbeamercolor{block title theorem}{bg=gray!10,fg=black}
+  \setbeamercolor{block body theorem}{bg=white,fg=black}
+}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%              Настройка шрифтов
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\usepackage[no-math]{fontspec}
+% При использовании LuaLaTeX отключаем следующие два пакета
+% \usepackage{xunicode}
+% \usepackage{xltxtra}
+
+\usepackage{polyglossia}
+\setdefaultlanguage[indentfirst=true,spelling=modern]{russian}
+\setotherlanguage{english}
+\setotherlanguage{greek}
+
+\usepackage{tabularray} % Пакет для таблиц
+\UseTblrLibrary{amsmath}
+% \usepackage{amsmath}
+\usepackage{unicode-math}
+\usepackage{accents}
+
+\unimathsetup{
+  % math-style=french,
+  math-style=TeX,
+  % bold-style=ISO
+  mathbf=sym,
+  mathrm=sym,
+}
+
+\setmainfont[Ligatures=TeX]{IBM Plex Serif}
+\setromanfont[Ligatures=TeX]{IBM Plex Serif}
+\setsansfont[Ligatures=TeX]{IBM Plex Sans}
+\setmonofont[Ligatures=TeX]{IBM Plex Mono}
+
+% \setmainfont[Ligatures=TeX]{PT Serif}
+% \setsansfont[Ligatures=TeX]{PT Sans}
+% \setmonofont[Ligatures=TeX]{PT Mono}
+
+% \newfontfamily\greekfontsf{Alegreya Sans}
+
+% \setmainfont[Ligatures=TeX]{CMU Serif}
+% \setsansfont[Ligatures=TeX]{CMU Sans Serif}
+% \setmonofont{CMU Typewriter Text}
+
+% \setmathfont{Latin Modern Math}
+% \setmathfont{TeX Gyre Bonum Math}
+\setmathfont{TeX Gyre Pagella Math}
+% \setmathfont{TeX Gyre Schola Math}
+% \setmathfont{TeX Gyre Termes Math}
+% \setmainfont{Libertinus Math}
+% \setmainfont{Cambria Math}
+% \setmathfont{XITS Math}
+% \setmathfont{STIX}
+% \setmathfont{DejaVu Math TeX Gyre} % нет
+% \setmathfont{Asana-Math fonts} % нет
+% \setmainfont{Lucida Bright Math} % нет
+% \setmainfont{Fira Math} % нет
+% \setmainfont{Minion Math} % нет
+%
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%								Пакеты для математики
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% \usepackage{latexsym} % Некоторые дополнительные символы (например стрелки)
+% \usepackage{mathrsfs} % Рукописное начертание (с завитушками)
+% \usepackage{amsthm} % Теоремы и т.п.
+% \usepackage{amsopn} % Пакет для объявления новых математических операторов
+% \usepackage{tensor}
+% \usepackage{cancel}
+\usepackage{physics}
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%				Настройка пакета hyperref
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\hypersetup{
+    unicode=true,          % non-Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true,        % show Acrobat’s toolbar?
+    pdfmenubar=true,        % show Acrobat’s menu?
+    pdffitwindow=false,     % window fit to page when opened
+    pdfstartview={FitH},    % fits the width of the page to the window
+    bookmarksdepth=subsection,
+    colorlinks=true,
+    linkcolor={blue},
+    pdftitle={Винты и бикватернионы},
+    pdfauthor={Геворкян М. Н.}
+}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%								Разные пакеты
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% \usepackage{minted} % Пакет для листингов
+% \usepackage{wrapfig}
+% \usepackage{multirow}
+% \usepackage{pgf}
+% \usepackage{tikz}
+% \usetikzlibrary{tikzmark}
+% \usetikzlibrary{arrows}
+%\usepackage{verbatim}% Для исходного кода, цитат и т.д. и т.п.
+%\usepackage{cite}
+
+% Дополнительные значки для маркеров списка
+% \usepackage{pifont}
+
+% Считывание csv файлов и оформление в виде таблиц
+% \usepackage{pgfplotstable}
+% \pgfplotsset{compat=newest}
+% \pgfplotstableset{
+%   every head row/.style={after row=\hline},
+% }
+% pgfplotstable рекомендуется использовать вместе с
+% тремя нижеподключенными пакетами:
+% \usepackage{booktabs}
+% \usepackage{array}
+% \usepackage{colortbl}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%								BibLaTeX
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\setbeamertemplate{bibliography item}{\insertbiblabel}
+\usepackage[autostyle]{csquotes}
+\usepackage{url}
+
+\usepackage[%
+  backend=biber,
+  hyperref=auto,
+  language=auto,
+  autolang=other,
+  otherlangs=true,
+  langhook=extras,
+  style=gost-numeric,
+  citestyle=gost-numeric,
+  bibstyle=gost-numeric,
+  defernumbers=true,
+  refsection=section,
+  movenames=false,% не менять местами заголовок и список авторов, если авторов больше четырех
+  maxbibnames=3,% сколько авторов указывать
+  % sorting=ydnt
+]{biblatex}
+% Файлы с литературой, берем из монографии
+\newcommand{\bibsdir}{../../Монография/bib}
+% \addbibresource[glob=true]{\bibsdir/*.bib}
+% Прописываем явно, иначе не работают подсказки в VS Code
+\addbibresource{\bibsdir/algebra.bib}
+\addbibresource{\bibsdir/animation.bib}
+\addbibresource{\bibsdir/asymptote.bib}
+\addbibresource{\bibsdir/biquaternions.bib}
+\addbibresource{\bibsdir/computer_graphics.bib}
+\addbibresource{\bibsdir/computer_geometry.bib}
+\addbibresource{\bibsdir/differential_geometry.bib}
+\addbibresource{\bibsdir/geometry.bib}
+\addbibresource{\bibsdir/kinematics.bib}
+\addbibresource{\bibsdir/physics.bib}
+\addbibresource{\bibsdir/projective_geometry.bib}
+\addbibresource{\bibsdir/python.bib}
+\addbibresource{\bibsdir/quaternions.bib}
+\addbibresource{\bibsdir/rotations.bib}
+\addbibresource{\bibsdir/soft.bib}
+\addbibresource{\bibsdir/splines.bib}
+\addbibresource{\bibsdir/history.bib}
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%					Определение новых команд
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\newtheorem{statement}[theorem]{Утверждение}
+% Переопределим \emph чтобы вместо курсива был красный шрифт
+\renewcommand<>{\emph}[1]{%
+  {\usebeamercolor[Red]{emph}\only#2#1}%
+}
+\renewcommand{\Im}{\mathop{\mathrm{Im}}\nolimits} % мнимая часть числа
+\renewcommand{\Re}{\mathop{\mathrm{Re}}\nolimits} % действительная часть числа
+\newcommand{\const}{\mathrm{const}} % константа
+
+\newcommand{\noteq}{\stackrel{\mathrm{not}}{=}} % обозначение
+\newcommand{\defeq}{\stackrel{\mathrm{def}}{=}}	% определение
+
+\renewcommand{\i}{\mathrm{i}}
+\renewcommand{\j}{\mathrm{j}}
+\renewcommand{\k}{\mathrm{k}}

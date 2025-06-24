@@ -1,0 +1,1 @@
+latexmk -lualatex -shell-escape main.tex

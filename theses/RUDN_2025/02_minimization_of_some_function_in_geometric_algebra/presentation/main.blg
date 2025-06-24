@@ -1,0 +1,63 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'main.blg'
+[92] biber:340> INFO - === Вт мар 25, 2025, 11:53:41
+[108] Biber.pm:420> INFO - Reading 'main.bcf'
+[220] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
+[220] Biber.pm:994> INFO - Found 3 citekeys in bib section 1
+[220] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
+[220] Biber.pm:994> INFO - Found 3 citekeys in bib section 2
+[220] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
+[221] Biber.pm:994> INFO - Found 0 citekeys in bib section 3
+[221] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
+[260] Biber.pm:4463> INFO - Processing section 1
+[273] Biber.pm:4654> INFO - Looking for bibtex file '../../Монография/bib/algebra.bib' for section 1
+[275] bibtex.pm:1713> INFO - LaTeX decoding ...
+[298] bibtex.pm:1519> INFO - Found BibTeX data source '../../Монография/bib/algebra.bib'
+[303] Biber.pm:4654> INFO - Looking for bibtex file '../../Монография/bib/animation.bib' for section 1
+[304] bibtex.pm:1713> INFO - LaTeX decoding ...
+[313] bibtex.pm:1519> INFO - Found BibTeX data source '../../Монография/bib/animation.bib'
+[314] Biber.pm:4654> INFO - Looking for bibtex file '../../Монография/bib/asymptote.bib' for section 1
+[315] bibtex.pm:1713> INFO - LaTeX decoding ...
+[330] bibtex.pm:1519> INFO - Found BibTeX data source '../../Монография/bib/asymptote.bib'
+[333] Biber.pm:4654> INFO - Looking for bibtex file '../../Монография/bib/biquaternions.bib' for section 1
+[334] bibtex.pm:1713> INFO - LaTeX decoding ...
+[344] bibtex.pm:1519> INFO - Found BibTeX data source '../../Монография/bib/biquaternions.bib'
+[387] Biber.pm:4654> INFO - Looking for bibtex file '../../Монография/bib/computer_graphics.bib' for section 1
+[389] bibtex.pm:1713> INFO - LaTeX decoding ...
+[418] bibtex.pm:1519> INFO - Found BibTeX data source '../../Монография/bib/computer_graphics.bib'
+[420] Biber.pm:4654> INFO - Looking for bibtex file '../../Монография/bib/computer_geometry.bib' for section 1
+[422] bibtex.pm:1713> INFO - LaTeX decoding ...
+[449] bibtex.pm:1519> INFO - Found BibTeX data source '../../Монография/bib/computer_geometry.bib'
+[451] Biber.pm:4654> INFO - Looking for bibtex file '../../Монография/bib/differential_geometry.bib' for section 1
+[452] bibtex.pm:1713> INFO - LaTeX decoding ...
+[463] bibtex.pm:1519> INFO - Found BibTeX data source '../../Монография/bib/differential_geometry.bib'
+[464] Biber.pm:4654> INFO - Looking for bibtex file '../../Монография/bib/geometry.bib' for section 1
+[466] bibtex.pm:1713> INFO - LaTeX decoding ...
+[484] bibtex.pm:1519> INFO - Found BibTeX data source '../../Монография/bib/geometry.bib'
+[519] Biber.pm:4654> INFO - Looking for bibtex file '../../Монография/bib/kinematics.bib' for section 1
+[519] bibtex.pm:1713> INFO - LaTeX decoding ...
+[524] bibtex.pm:1519> INFO - Found BibTeX data source '../../Монография/bib/kinematics.bib'
+[524] Biber.pm:4654> INFO - Looking for bibtex file '../../Монография/bib/physics.bib' for section 1
+[526] bibtex.pm:1713> INFO - LaTeX decoding ...
+[543] bibtex.pm:1519> INFO - Found BibTeX data source '../../Монография/bib/physics.bib'
+[570] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[570] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[571] Biber.pm:4283> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'ru-RU'
+[571] Biber.pm:4289> INFO - No sort tailoring available for locale 'ru-RU'
+[576] Biber.pm:4463> INFO - Processing section 2
+[576] Biber.pm:4654> INFO - Looking for bibtex file '../../Монография/bib/algebra.bib' for section 2
+[577] Biber.pm:4654> INFO - Looking for bibtex file '../../Монография/bib/animation.bib' for section 2
+[577] Biber.pm:4654> INFO - Looking for bibtex file '../../Монография/bib/asymptote.bib' for section 2
+[577] Biber.pm:4654> INFO - Looking for bibtex file '../../Монография/bib/biquaternions.bib' for section 2
+[590] Biber.pm:4654> INFO - Looking for bibtex file '../../Монография/bib/computer_graphics.bib' for section 2
+[590] Biber.pm:4654> INFO - Looking for bibtex file '../../Монография/bib/computer_geometry.bib' for section 2
+[591] Biber.pm:4654> INFO - Looking for bibtex file '../../Монография/bib/differential_geometry.bib' for section 2
+[592] Biber.pm:4654> INFO - Looking for bibtex file '../../Монография/bib/geometry.bib' for section 2
+[593] Biber.pm:4654> INFO - Looking for bibtex file '../../Монография/bib/kinematics.bib' for section 2
+[594] Biber.pm:4654> INFO - Looking for bibtex file '../../Монография/bib/physics.bib' for section 2
+[635] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[635] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[635] Biber.pm:4283> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'ru-RU'
+[635] Biber.pm:4289> INFO - No sort tailoring available for locale 'ru-RU'
+[643] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[650] bbl.pm:779> INFO - Output to main.bbl
